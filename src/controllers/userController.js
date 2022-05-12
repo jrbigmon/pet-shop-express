@@ -7,19 +7,17 @@ const userController = {
     userList: (req, res) => {
         let list = [];
         userDatabase.forEach(element => {
-            list.push(element.name + ' ' + element.id)    
+            list.push('name: ' + element.name + ' ' + 'id: ' + element.id)    
         });
         res.send(list);
     }, 
     index: (req, res) => {
         const {id} = req.params
-        let index = userDatabase.find(element => element.name == id)
+        let index = userDatabase.find(element => element.id == id);
         if (index == null) {
-            let index = userDatabase.find(element => element.id == id)
-            res.send(index)
-        }
-        else if(index != null) {
-            res.send(index)
+            res.send('User not found')
+        }else {
+            res.send(index);
         }
     },
     userCreated: (req, res) => {

@@ -1,0 +1,16 @@
+[
+    {   
+        "id": "01",
+        "name": "Binho",
+        "petType": "Dog",
+        "age": "10 years",
+        "size": "medium"  
+    },
+    {
+        "id": "02",   
+        "name": "Marrye",
+        "petType": "Cat",
+        "age": "4 years",
+        "size": "small"  
+    }
+]

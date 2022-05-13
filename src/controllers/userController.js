@@ -1,8 +1,9 @@
 let userDatabase = require('../database/userDatabase.json')
+
 const userController = {
     homePage: (req, res) => {
         console.log("Home page")
-        res.send('homePage')
+        res.render('index')
     },
     userList: (req, res) => {
         let list = [];

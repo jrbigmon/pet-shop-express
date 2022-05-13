@@ -10,12 +10,17 @@ const petsController = {
     petIndex: (req, res) => {
         const {id} = req.params;
         const petIndex = petsDatabase.find(element => element.id == id)
-        res.send(petIndex)
+        if(petIndex == null) {
+            res.send('user not found');
+        }else {
+            res.send(petIndex)
+        }
     },
     petsCreated: (req, res) => {
         const {name, petType, age, size} = req.body;
-        petsDatabase.push({id: petsDatabase.length+1, name, petType, age, size})
-        res.send(petsDatabase)
+        const newPet = {id: petsDatabase.length+1, name, petType, age, size}
+        petsDatabase.push(newPet)
+        res.send(newPet);
     },
     petsUpdated: (req, res) => {
         const {id} = req.params;

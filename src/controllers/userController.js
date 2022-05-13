@@ -11,29 +11,30 @@ const userController = {
         });
         res.send(list);
     }, 
-    index: (req, res) => {
+    userIndex: (req, res) => {
         const {id} = req.params
-        let index = userDatabase.find(element => element.id == id);
-        if (index == null) {
+        let userIndex = userDatabase.find(element => element.id == id);
+        if (userIndex == null) {
             res.send('User not found')
         }else {
-            res.send(index);
+            res.send(userIndex);
         }
     },
     userCreated: (req, res) => {
-        const {name, id, height} = req.body
-        const newUser = {name, id, height}
+        const {name, height} = req.body;
+        const newUser = ({id: userDatabase.length + 1, name, height})
         userDatabase.push(newUser)
-        res.send(userDatabase)     
+        res.send(newUser);     
     },
     userUpdated: (req, res) => {
         const {id} = req.params
-        const{name, height} = req.body
-        userDatabase[id] = {name, id, height}
-        res.send(userDatabase[id])
+        let index = userDatabase.find(element => element.id == id)
+        const {name, height} = req.body;
+        userDatabase[index] = {id ,name, height}
+        res.send(userDatabase[index])
     },
     userDeleteId: (req, res) => {
-        const id = req.body.id
+        const {id} = req.body;
         let index = userDatabase.findIndex(element => element.id == id)
         userDatabase.splice(index, 1);
         res.send(userDatabase)

@@ -34,9 +34,7 @@ const petsController = {
         const index = petsDatabase.find(element => element.id == id)
         petsDatabase.splice(index, 1)
         res.send(petsDatabase)
-    }
-
-
-}
+    },
+};
 
 module.exports = petsController;

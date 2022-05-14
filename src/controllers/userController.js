@@ -1,5 +1,6 @@
 let userDatabase = require('../database/userDatabase.json')
-const { v4: geratorId } = require('uuid');
+// const { v4: geratorId } = require('uuid');
+const idGerator = require('../../module/idGerator')
 
 const userController = {
     userList: (req, res) => {
@@ -21,7 +22,7 @@ const userController = {
     },
     userCreated: (req, res) => {
         const {name, height} = req.body;
-        const newUser = ({id:geratorId(), name, height})
+        const newUser = ({id:idGerator(userDatabase), name, height})
         userDatabase.push(newUser)
         res.json(newUser)     
     },

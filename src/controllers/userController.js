@@ -1,9 +1,13 @@
 let userDatabase = require('../database/userDatabase.json')
-
+const { v4: geratorId } = require('uuid');
+const path = require('path')
+const fs = require('fs')
 const userController = {
     homePage: (req, res) => {
-        console.log("Home page")
-        res.render('index')
+        res.render('index', {
+            name: "Ian" ,
+            title:"MyPerson",
+        })
     },
     userList: (req, res) => {
         let list = [];
@@ -23,9 +27,9 @@ const userController = {
     },
     userCreated: (req, res) => {
         const {name, height} = req.body;
-        const newUser = ({id: userDatabase.length + 1, name, height})
+        const newUser = ({id:geratorId(), name, height})
         userDatabase.push(newUser)
-        res.send(newUser);     
+        res.json(newUser)     
     },
     userUpdated: (req, res) => {
         const {id} = req.params

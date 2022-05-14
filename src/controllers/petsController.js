@@ -1,4 +1,5 @@
 const petsDatabase = require('../database/petsDatabase.json')
+const { v4: geratorId } = require('uuid');
 const petsController = {
     petsList: (req, res) => {
         let list = []
@@ -18,7 +19,7 @@ const petsController = {
     },
     petsCreated: (req, res) => {
         const {name, petType, age, size} = req.body;
-        const newPet = {id: petsDatabase.length+1, name, petType, age, size}
+        const newPet = {id: geratorId(), name, petType, age, size}
         petsDatabase.push(newPet)
         res.send(newPet);
     },

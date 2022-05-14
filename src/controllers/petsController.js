@@ -1,10 +1,12 @@
 const petsDatabase = require('../database/petsDatabase.json')
 const { v4: geratorId } = require('uuid');
+
 const petsController = {
     petsList: (req, res) => {
         let list = []
         petsDatabase.forEach(element => {
-          list.push('Id: ' + element.id + ', ' + 'name: ' + element.name + ', ' + 'pet Type: ' + element.petType)    
+            list.push(`Id: ${element.id} - Name: ${element.name} - Pet type: ${element.petType}`)
+        //  list.push('Id: ' + element.id + ', ' + 'name: ' + element.name + ', ' + 'pet Type: ' + element.petType)    
         })
         res.send(list)
     },

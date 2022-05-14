@@ -1,18 +1,12 @@
 let userDatabase = require('../database/userDatabase.json')
 const { v4: geratorId } = require('uuid');
-const path = require('path')
-const fs = require('fs')
+
 const userController = {
-    homePage: (req, res) => {
-        res.render('index', {
-            name: "Ian" ,
-            title:"MyPerson",
-        })
-    },
     userList: (req, res) => {
         let list = [];
         userDatabase.forEach(element => {
-            list.push('name: ' + element.name + ' ' + 'id: ' + element.id)    
+            list.push(`Id: ${element.id} - Name: ${element.name}`)
+            // list.push('name: ' + element.name + ' ' + 'id: ' + element.id)    
         });
         res.send(list);
     }, 

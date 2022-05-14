@@ -13,6 +13,9 @@ app.use(express.static('public'));
 
 app.use('/', userRouter);
 app.use('/', petsRouter);
+app.use((req, res, next) => {
+    res.status(404).send('Página não encontrada')
+})
 
 
 app.listen(3000, () => {

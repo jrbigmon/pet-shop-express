@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const petsController = require('../controllers/petsController')
+const petsController = require('../controllers/petController')
 
 router.get('/', petsController.petsList)
 router.get('/:id', petsController.petIndex)

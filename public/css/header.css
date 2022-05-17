@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-header {
+.header {
     height: 113px;
     width: 100%;
     background-color: #FFBE51;
@@ -8,22 +8,22 @@ header {
     align-items: center;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
 }
-img{
+.header img{
     margin-left: 110px;
 }
-div{
+.header div{
     margin: 0px 132px 0px 0px;
 }
-div ul{
+.header div ul{
     display: flex;
     flex-direction: row;
     text-transform: uppercase;
 }
-div ul li{
+.header div ul li{
     list-style-type: none;
     padding: 0px 69px 0px 0px
 }
-div ul li a{
+.header div ul li a{
     text-decoration: none;
     color: #ffffff;
     font-family: 'Nunito', sans-serif;

@@ -30,7 +30,7 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;    
 }
 .section-2 h1 { 
@@ -39,8 +39,48 @@
     line-height: 55px;
     color: #000000;
     text-align: center;
+    padding: 100px 0px 67px 0px
 }
-.sub-section div {
+.sub-section .sub-section-img {
+    height: 264px;
+    width: 266px;
+    background-color: #FFFFFF;
+}
+.sub-section .card-service {
     height: 357px;
     width: 266px;
+    margin: 0px 0px 105px 0px;
+}
+.card-service .service{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+.card-service .valor{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+.section-3 {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 178px 99px 147px 156px;
+}
+.section-3-img{
+    height: 355px;
+    width: 498px;
+}
+.section-3-text{
+    height: 111px;
+    width: 561px;
+}
+.section-3-text #text-1{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 37px;
+    color: #757575;
 }

@@ -2,7 +2,7 @@ const petsDatabase = require('../database/petsDatabase.json')
 const { v4: geratorId } = require('uuid');
 
 const petsController = {
-    petsList: (req, res) => {
+    show: (req, res) => {
         let list = []
         petsDatabase.forEach(element => {
             list.push(`Id: ${element.id} - Name: ${element.name} - Pet type: ${element.petType}`)
@@ -10,7 +10,7 @@ const petsController = {
         })
         res.send(list)
     },
-    petIndex: (req, res) => {
+    index: (req, res) => {
         const {id} = req.params;
         const petIndex = petsDatabase.find(element => element.id == id)
         if(petIndex == null) {
@@ -19,20 +19,20 @@ const petsController = {
             res.send(petIndex)
         }
     },
-    petsCreated: (req, res) => {
+    create: (req, res) => {
         const {name, petType, age, size} = req.body;
         const newPet = {id: geratorId(), name, petType, age, size}
         petsDatabase.push(newPet)
         res.send(newPet);
     },
-    petsUpdated: (req, res) => {
+    update: (req, res) => {
         const {id} = req.params;
         let index = petsDatabase.find(element => element.id == id)
         const {name, petType, age, size} = req.body;
         petsDatabase[index] = {name, petType, age, size}
         res.send(petsDatabase[index])
     },
-    petsDeleted: (req, res) => {
+    destroy: (req, res) => {
         const {id} = req.body;
         const index = petsDatabase.find(element => element.id == id)
         petsDatabase.splice(index, 1)

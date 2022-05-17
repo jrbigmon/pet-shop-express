@@ -1,8 +1,8 @@
 const homeController = {
-    homePage: (req, res) => {
+    index: (req, res) => {
         res.render('index', {
             name: "Vagner",
-            title: "HomePage"
+            title: "Home"
         })
     }
 }

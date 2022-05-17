@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 343px;
+    width: 100%;
+    background-color: #FFBE51;
+    align-items: center;
+}
+footer #logoBlack {
+    height: 240px;
+    width: 246px;
+    margin: 0px 76px 0px 62px;
+}
+footer div {
+    height: 218px;
+    width: 462px;
+}
+footer div p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+footer #mapFooter{
+    height: 257px;
+    width: 466px;
+    margin: 0px 99px 0px 0px;
+}

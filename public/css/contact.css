@@ -3,13 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-contact h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFBE51;
+}
 .main-contact{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 123px 0px 148px 0px;
+    align-items: center;
 }
-
 .section-form input{
     height: 32px;
     width: 493px;
@@ -18,4 +25,23 @@
 .section-form textarea{
     height: 193px;
     width: 493px;
+}
+.section-form button{
+    height: 32px;
+    width: 496px;
+    background-color: #FFC107;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+}
+.section-locality #locality-adress{
+    margin: 0px 0px 20px 0px;
+}
+.section-locality #locality-adress p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
 }

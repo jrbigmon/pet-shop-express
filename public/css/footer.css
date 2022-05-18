@@ -5,6 +5,7 @@ footer {
     width: 100%;
     background-color: #FFBE51;
     align-items: center;
+    justify-content: space-around;
 }
 footer #logoBlack {
     height: 240px;
@@ -13,7 +14,7 @@ footer #logoBlack {
 }
 footer div {
     height: 218px;
-    width: 462px;
+    width: 250px;
 }
 footer div p{
     font-size: 18px;

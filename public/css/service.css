@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main #service-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFBE51;
+    text-align: center;
+    margin: 111px 0px 34px 0px;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    padding: 90px 0px 90px 295px;
+    border-bottom: #C4C4C4 solid 5px;
+}
+.section-img{
+    height: 264px;
+    width: 266px;
+    background-color: #C4C4C4;
+    margin: 0px 72px 0px 0px;
+}
+.section-describ{
+    height: 125px;
+    width: 640px;
+}
+.describ-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.describ-valor{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-left: 14px;
+}
+.section-describ p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #757575;
+    padding-top: 25px;
+}
+.section-describ button{
+    width: 245px;
+    height: 32px;
+    background-color: #FFC107;
+    border: none;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+.section-3{
+    border: none
+}

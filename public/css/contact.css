@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 123px 0px 148px 0px;
+}
+
+.section-form input{
+    height: 32px;
+    width: 493px;
+    margin: 15px 0px;
+}
+.section-form textarea{
+    height: 193px;
+    width: 493px;
+}

@@ -1,9 +1,11 @@
+const serviceDatabase = require('../database/serviceDatabase.json')
 const homeController = {
     index: (req, res) => {
         res.render('./home/index', {title: 'Home'})
     },
     service: (req, res) => {
-        res.render('./home/service', {title: 'service'})
+        const servicos = serviceDatabase.services;
+        res.render('./home/service', {title: 'service', servicos})
     },
     login: (req, res) => {
         res.render('./home/login', {title: 'login'})

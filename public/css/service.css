@@ -51,9 +51,7 @@ main #service-title{
     color: #757575;
     padding-top: 25px;
 }
-.section-describ button{
-    width: 245px;
-    height: 32px;
+.section-describ a{
     background-color: #FFC107;
     border: none;
     font-weight: 800;
@@ -61,7 +59,8 @@ main #service-title{
     line-height: 22px;
     color: #FFFFFF;
     margin-top: 80px;
-}
-.section-3{
-    border: none
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
 }

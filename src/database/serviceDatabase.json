@@ -1,6 +1,7 @@
 {
     "services": [ 
         {
+            "id": "1",
             "name": "Banho e Tosa",
             "valor": "R$ 50,00",
             "ativo": false,
@@ -8,6 +9,7 @@
             "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
         },
         {
+            "id": "2",
             "nome": "Consulta veterinária",
             "valor": "R$ 250,00",
             "ativo": true,
@@ -15,6 +17,7 @@
             "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
         },
         {
+            "id": "3",
             "name": "Vacinação",
             "valor": "R$ 120,00",
             "ativo": true,

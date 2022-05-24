@@ -6,7 +6,7 @@ const homeController = {
     },
     service: (req, res) => {
         const servicos = serviceModel.findAll();
-        res.render('./home/service', {title: 'service', servicos})
+        res.render('./home/services', {title: 'service', servicos})
     },
     login: (req, res) => {
         res.render('./home/login', {title: 'login'})

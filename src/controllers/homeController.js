@@ -1,10 +1,11 @@
-const serviceDatabase = require('../database/serviceDatabase.json')
+const serviceModel = require('../model/serviceModel')
+
 const homeController = {
     index: (req, res) => {
         res.render('./home/index', {title: 'Home'})
     },
     service: (req, res) => {
-        const servicos = serviceDatabase.services;
+        const servicos = serviceModel.findAll();
         res.render('./home/service', {title: 'service', servicos})
     },
     login: (req, res) => {

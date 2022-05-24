@@ -20,29 +20,13 @@
             <h1>SERVIÇOS</h1>
 
             <div class="sub-section">
+                <% services.forEach(service => { %> 
                 <div class="card-service">
-                    <div class="sub-section-img">
-
-                    </div>
-                    <p class="service"> Banho completo </p>
-                    <p class="valor"> R$40,00 </p>
+                    <img src="<%= service.img %>" alt="" class="sub-section-img">
+                    <p class="service"> <%= service.name %> </p>
+                    <p class="valor"> <%= service.valor %> </p>
                 </div>
-
-                <div class="card-service">
-                    <div class="sub-section-img">
-
-                    </div>
-                    <p class="service"> Banho e Tosa </p>
-                    <p class="valor"> R$60,00 </p>
-                </div>
-
-                <div class="card-service">
-                    <div class="sub-section-img">
-
-                    </div>
-                    <p class="service"> Consulta veterinária </p>
-                    <p class="valor"> R$40,00 </p>
-                </div>
+            <% }) %>
             </div>
         </section>
 

@@ -14,12 +14,12 @@
             <img class="section-img" src="<%= servico.img %>" alt="">
 
             <div class="section-describ">
-                <span class="describ-title"> <%= servico.name %> </span>
+                <p class="describ-title"> <%= servico.name %> </p>
 
-                <span class="describ-valor"> <%= servico.valor %> </span>
+                <p class="describ-valor"> <%= servico.valor %> </p>
                 <p> <%= servico.describ %> </p>
 
-                <a href="#"> agendar </a>
+                <a href="/services/<%= servico.id %>"> agendar </a>
             </div>
         </section>
         <% }) %>

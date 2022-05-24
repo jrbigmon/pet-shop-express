@@ -2,7 +2,8 @@ const serviceModel = require('../model/serviceModel')
 
 const homeController = {
     index: (req, res) => {
-        res.render('./home/index', {title: 'Home'})
+        const services = serviceModel.findAll();
+        res.render('./home/index', {title: 'Home', services})
     },
     service: (req, res) => {
         const servicos = serviceModel.findAll();

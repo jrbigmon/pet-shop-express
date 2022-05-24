@@ -28,14 +28,14 @@ main #service-title{
     height: 125px;
     width: 640px;
 }
-.describ-title{
+.section-describ .describ-title{
     font-weight: 700;
     font-size: 40px;
     line-height: 55px;
     text-transform: uppercase;
     color: #000000;
 }
-.describ-valor{
+.section-describ .describ-valor{
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -58,7 +58,7 @@ main #service-title{
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
-    margin-top: 80px;
+    margin-top: 20px;
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;

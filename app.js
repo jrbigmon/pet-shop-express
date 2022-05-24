@@ -19,7 +19,7 @@ app.use(express.static('public'));  // file in public folder view for client
 app.use(homeRouter); // search home page in homeRouter
 app.use('/users', userRouter); // search routes of user
 app.use('/pets', petRouter); // search routes of pets
-app.use('/service', serviceRouter)
+app.use('/services', serviceRouter)
 
 app.use((req, res, next) => {
     res.status(404).send('Página não encontrada');

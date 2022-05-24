@@ -1,28 +1,31 @@
 {
-    "services": [ 
-        {
-            "id": "1",
-            "name": "Banho e Tosa",
-            "valor": "R$ 50,00",
-            "ativo": false,
-            "img": "https://1.bp.blogspot.com/-Wq2lcq9_a4I/Tc2lLWOkNVI/AAAAAAAABVM/Wao0rm-vWe4/s1600/gatinho-5755.jpg",
-            "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
-        },
-        {
-            "id": "2",
-            "nome": "Consulta veterinária",
-            "valor": "R$ 250,00",
-            "ativo": true,
-            "img": "https://guiaanimal.net/uploads/content/image/38084/AdobeStock_163556483.jpeg",
-            "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
-        },
-        {
-            "id": "3",
-            "name": "Vacinação",
-            "valor": "R$ 120,00",
-            "ativo": true,
-            "img": "https://img.olx.com.br/images/14/142298645992912.jpg",
-            "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
-        }
-    ]
+    "services": [{
+        "id": "1",
+        "name": "Banho e Tosa",
+        "valor": "R$ 50,00",
+        "ativo": false,
+        "img": "https://1.bp.blogspot.com/-Wq2lcq9_a4I/Tc2lLWOkNVI/AAAAAAAABVM/Wao0rm-vWe4/s1600/gatinho-5755.jpg",
+        "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
+    }, {
+        "id": "2",
+        "name": "Consulta veterinária",
+        "valor": "R$ 250,00",
+        "ativo": true,
+        "img": "https://guiaanimal.net/uploads/content/image/38084/AdobeStock_163556483.jpeg",
+        "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
+    }, {
+        "id": "3",
+        "name": "Vacinação",
+        "valor": "R$ 120,00",
+        "ativo": true,
+        "img": "https://img.olx.com.br/images/14/142298645992912.jpg",
+        "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
+    }, {
+        "id": "4a406b82-230c-4bd9-a886-e0fa2132f54f",
+        "name": "Vagner",
+        "valor": "R$ 150",
+        "ativo": "true",
+        "img": "https://www.hypeness.com.br/1/2020/07/Cachorros-podem-reconhecer-pessoas-n%C3%A3o-confi%C3%A1veis-foto-unsplash-3.jpg",
+        "describ": "Dogzão"
+    }]
 }

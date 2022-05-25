@@ -1,16 +1,22 @@
 const fs = require('fs');
 const path = require('path');
-const { service } = require('../controllers/homeController');
+const serviceDatabase = path.join('src', 'database', 'serviceDatabase.json');
 
 const open = () => {
-    let content = fs.readFileSync(path.join(__dirname, '../database/serviceDatabase.json'), 'utf8');
+    let content = fs.readFileSync(serviceDatabase, 'utf8');
     const service = JSON.parse(content);
     return service;
 }
 
 const store = (db) => {
-  content = JSON.sringify(db);
-  fs.writeFileSync(path.join(__dirname, '../database/serviceDatabase.json'), content, 'utf8');
+  const content = JSON.stringify(db);
+  fs.writeFileSync(serviceDatabase, content, 'utf8');
+}
+
+const write = (db ,file) => {
+    const content = JSON.stringify(db);
+    fs.appendFileSync(serviceDatabase, content, 'utf8');
+    return db;
 }
 
 const serviceModel = {
@@ -25,14 +31,20 @@ const serviceModel = {
     }, 
     save: (service) => {
         const db = open();
-        db.store(service)
-        return db;
+        db.services.push(service);
+        store(db); 
     },
     update: (id, service) => {
-
+        const db = open();
+        const index = db.services.findIndex(service => service.id == id)
+        db.services[index] = service;
+        store(db);
     },
     delete: (id) => {
-
+        const db = open();
+        const index = db.services.findIndex(service => service.id == id)
+        db.services.splice(index, 1);
+        store(db);
     }
 }
 

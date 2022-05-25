@@ -32,14 +32,19 @@ const serviceModel = {
     save: (service) => {
         const db = open();
         db.services.push(service);
-        store(db); // trabalhar nesse código
-        return db;
+        store(db); 
     },
     update: (id, service) => {
-
+        const db = open();
+        const index = db.services.findIndex(service => service.id == id)
+        db.services[index] = service;
+        store(db);
     },
     delete: (id) => {
-
+        const db = open();
+        const index = db.services.findIndex(service => service.id == id)
+        db.services.splice(index, 1);
+        store(db);
     }
 }
 

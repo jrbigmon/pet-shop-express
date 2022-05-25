@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/css/service.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<%- include('../partials/head') %>
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <main>
+        <table class="table border-danger">
+          
+            <thead>
+              <tr>
+                <th scope="col">Id:</th>
+                <th scope="col">Nome:</th>
+                <th scope="col">Valor:</th>
+                <th scope="col">Ativo:</th>
+                <th scope="col">Imagem:</th>
+                <th scope="col">Descrição:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"> <%= service.id %></th>
+                <td> <%= service.name %> </td>
+                <td> <%= service.valor %> </td>
+                <td> <%= service.ativo %> </td>
+                <td>  <%= service.img %> </td>
+                <td> <%= service.describ %> </td>
+              </tr>
+             <form  method="POST" action="/services/adm/update/<%= service.id %>?_method=PUT">
+              <tr>
+                <th scope="row"></th>
+                <td> <input type="text" name="name" placeholder="name" > </td>
+                <td> <input type="text" name="valor" placeholder="valor" > </td>
+                <td>
+                  <label for="ativo"> habilitado 
+                    <input type="radio" id="ativo" name="ativo" value="true">
+                  </label> 
+                  <label for="inativo"> Desabilitado
+                    <input type="radio" id="inativo" name="ativo" value="false"> 
+                  </label>
+                </td>
+                <td> <input type="text" name="img" placeholder="Imagem" > </td>
+                <td> <textarea name="describ" id="" cols="30" rows="5"></textarea> </td>
+              </tr>
+              <tr>
+               <td> <button type="submit" class="btn btn-primary"> Update </button> </td>
+              </tr>
+             </form>
+            </tbody>
+          </table>
+    </main>
+    <%- include('../partials/footer')  %>
+</body>
+
+</html>

@@ -20,12 +20,5 @@
         "ativo": true,
         "img": "https://img.olx.com.br/images/14/142298645992912.jpg",
         "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
-    }, {
-        "id": "4a406b82-230c-4bd9-a886-e0fa2132f54f",
-        "name": "Vagner",
-        "valor": "R$ 150",
-        "ativo": "true",
-        "img": "https://www.hypeness.com.br/1/2020/07/Cachorros-podem-reconhecer-pessoas-n%C3%A3o-confi%C3%A1veis-foto-unsplash-3.jpg",
-        "describ": "Dogzão"
     }]
 }

@@ -11,6 +11,7 @@
     <%- include('../partials/header') %>
 
     <main>
+        
         <form action="/services/adm/create" method="POST" style="max-width: 50%; margin: 50px auto">
 
             <div class="input-group mb-3">
@@ -47,7 +48,8 @@
                     <textarea name="describ" class="form-control" aria-label="With textarea"></textarea>
                 </label>
             </div>
-            <button type="submit" class="btn b"> Enviar </button>
+            <button type="submit" class="btn btn-success"> Enviar </button>
+            <a href="/services/adm/show" class="btn btn-primary mb-5 mt-5"> Visualizar Todos </a>
         </form>
     </main>
     <%- include('../partials/footer')  %>

@@ -24,7 +24,7 @@ app.use('/pets', petRouter); // search routes of pets
 app.use(serviceRouter)
 
 app.use((req, res, next) => {
-    res.status(404).send('Página não encontrada');
+    res.status(404).redirect('/');
 }); // response for pages not found
 
 app.listen(3000, () => {

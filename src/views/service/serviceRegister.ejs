@@ -11,46 +11,48 @@
     <%- include('../partials/header') %>
 
     <main>
-        
-        <form action="/services/adm/create" method="POST" style="max-width: 50%; margin: 50px auto">
+        <h1 id="service-title"> CADASTRAR </h1>
+        <section class="section-form">
+            <form action="/services/adm/create" method="POST" class="translate-middle" enctype="multipart/form-data">
 
-            <div class="input-group mb-3">
-               <label for=""> Nome:
-                <input type="text" name="name" class="form-control" placeholder="Username" aria-label="Username"
-                aria-describedby="basic-addon1">
-               </label>
-            </div>
-
-            <div class="input-group mb-3">
-                <label for=""> Valor:
-                    <input type="number" name="valor" class="form-control" placeholder="Recipient's username"
-                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </label>
-            </div>
-
-            <div class="input-group mb-3">
-                <label for=""> Imagem:
-                    <input type="text" name="img" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                </label>
-            </div>
-
-            <div class="input-group mb-3">
-                <label for=""> Habilitado
-                    <input type="radio" name="ativo" value= <%=true%> class="form-control" aria-label="Amount (to the nearest dollar)">
-                </label>
-                <label for=""> Desabilitado
-                    <input type="radio" name="ativo" value= <%=false%> class="form-control" aria-label="Amount (to the nearest dollar)">
-                </label>
-            </div>
-
-            <div class="input-group">
-                <label for="">  Descrição:
-                    <textarea name="describ" class="form-control" aria-label="With textarea"></textarea>
-                </label>
-            </div>
-            <button type="submit" class="btn btn-success"> Enviar </button>
-            <a href="/services/adm/show" class="btn btn-primary mb-5 mt-5"> Visualizar Todos </a>
-        </form>
+                <div class="input-group mb-3">
+                   <label for=""> Nome:
+                    <input type="text" name="name" class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                   </label>
+                </div>
+    
+                <div class="input-group mb-3">
+                    <label for=""> Valor:
+                        <input type="number" name="value" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    </label>
+                </div>
+    
+                <div class="input-group mb-3">
+                    <label for=""> Imagem:
+                        <input type="file" name="img" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    </label>
+                </div>
+    
+                <div class="input-group mb-3">
+                    <label for=""> Habilitado
+                        <input type="radio" name="active" value= <%=true%> class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </label>
+                    <label for=""> Desabilitado
+                        <input type="radio" name="active" value= <%=false%> class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </label>
+                </div>
+    
+                <div class="input-group">
+                    <label for="">  Descrição:
+                        <textarea name="describ" class="form-control" aria-label="With textarea"></textarea>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success"> Enviar </button>
+                <a href="/services/adm/show" class="btn btn-primary mb-5 mt-5"> Visualizar Todos </a>
+            </form>
+        </section>
     </main>
     <%- include('../partials/footer')  %>
 </body>

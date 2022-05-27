@@ -11,6 +11,7 @@
     <%- include('../partials/header') %>
 
     <main>
+      <h1 id="service-title"> ATUALIZAR SERVIÇOS </h1>
         <table class="table border-danger">
           
             <thead>
@@ -27,8 +28,8 @@
               <tr>
                 <th scope="row"> <%= service.id %></th>
                 <td> <%= service.name %> </td>
-                <td> <%= service.valor %> </td>
-                <td> <%= service.ativo %> </td>
+                <td> <%= service.value %> </td>
+                <td> <%= service.active %> </td>
                 <td>  <%= service.img %> </td>
                 <td> <%= service.describ %> </td>
               </tr>
@@ -36,13 +37,13 @@
               <tr>
                 <th scope="row"></th>
                 <td> <input type="text" name="name" placeholder="name" > </td>
-                <td> <input type="text" name="valor" placeholder="valor" > </td>
+                <td> <input type="text" name="value" placeholder="valor" > </td>
                 <td>
                   <label for="ativo"> habilitado 
-                    <input type="radio" id="ativo" name="ativo" value="true">
+                    <input type="radio" id="ativo" name="active" value="true">
                   </label> 
                   <label for="inativo"> Desabilitado
-                    <input type="radio" id="inativo" name="ativo" value="false"> 
+                    <input type="radio" id="inativo" name="active" value="false"> 
                   </label>
                 </td>
                 <td> <input type="text" name="img" placeholder="Imagem" > </td>

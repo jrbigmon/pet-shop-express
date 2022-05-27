@@ -30,13 +30,15 @@
               <tr>
                 <th scope="row"> <%= element.id %></th>
                 <td> <%= element.name %> </td>
-                <td> <%= element.valor %> </td>
-                <td> <%= element.ativo %> </td>
+                <td> <%= element.value %> </td>
+                <td> <%= element.active %> </td>
                 <td> <img src=" <%= element.img %>" alt="" style=" width: 50px; height: 50px "> </td>
                 <td> <%= element.describ %> </td>
                 <td>
                   <a href="/services/adm/update/<%= element.id %>" class="btn btn-primary"> Editar </a> 
-                  <a href="/services/adm/delete/<%= element.id %>" class="btn btn-danger"> deletar </a> 
+                  <form action="/services/adm/delete/<%= element.id %>?_method=DELETE" method="POST">
+                    <button type="submit" class="btn btn-danger">Deletar</button>
+                  </form>
                 </td>
               </tr>
               <% }) %> 

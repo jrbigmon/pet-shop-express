@@ -8,10 +8,10 @@ const serviceController = {
         res.render('./service/index', {index, title: 'Service'})
     },
     create: (req, res) => {
-        const {name, valor, ativo, img, describ} = req.body;
-        const service = {id:geratorId(), name, valor:"R$ " + valor, ativo, img, describ};
+        const {name, value, active, img, describ} = req.body;
+        const service = {id:geratorId(), name, value, active, img, describ};
         serviceModel.save(service)
-        res.redirect('/')
+        res.redirect('/services/adm/show')
     },
     showCreate: (req, res) => {
         res.render('./service/serviceRegister', {title: 'create'})
@@ -23,8 +23,8 @@ const serviceController = {
     },
     update: (req, res) => {
         const {id} = req.params;
-        const {name, valor, ativo, img, describ} = req.body;
-        const serviceUpdate = {id, name, valor, ativo, img, describ};
+        const {name, value, active, img, describ} = req.body;
+        const serviceUpdate = {id, name, value, active, img, describ};
         serviceModel.update(id, serviceUpdate);
         console.log(serviceUpdate)
         res.redirect('/');
@@ -33,10 +33,10 @@ const serviceController = {
         const services = serviceModel.findAll()
         res.render('./service/serviceAdmShow', {title: 'ShowAdm', services})
     },
-    delete: (req, res) => {
+    destroy: (req, res) => {
         const {id} = req.body;
         serviceModel.delete(id)
-        res.redirect('/');
+        res.redirect('/services/adm/show');
     }
 }
 

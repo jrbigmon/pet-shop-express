@@ -1,21 +1,21 @@
 const fs = require('fs');
 const path = require('path');
-const serviceDatabase = path.join('src', 'database', 'serviceDatabase.json');
+const database = path.join('src', 'database', 'database.json');
 
 const open = () => {
-    let content = fs.readFileSync(serviceDatabase, 'utf8');
+    let content = fs.readFileSync(database, 'utf8');
     const service = JSON.parse(content);
     return service;
 }
 
 const store = (db) => {
   const content = JSON.stringify(db);
-  fs.writeFileSync(serviceDatabase, content, 'utf8');
+  fs.writeFileSync(database, content, 'utf8');
 }
 
-const write = (db ,file) => {
+const write = (db) => {
     const content = JSON.stringify(db);
-    fs.appendFileSync(serviceDatabase, content, 'utf8');
+    fs.appendFileSync(database, content, 'utf8');
     return db;
 }
 

@@ -8,8 +8,14 @@ const serviceController = {
         res.render('./service/index', {index, title: 'Service'})
     },
     create: (req, res) => {
-        const {name, value, active, img, describ} = req.body;
-        const service = {id:geratorId(), name, value, active, img, describ};
+        if(req.file){
+            const img = req.file.filename;
+            const {name, value, active, describ} = req.body;
+            var service = {id:geratorId(), name, value, active, img, describ};
+        }else {
+            var {name, value, img, active, describ} = req.body;
+            var service = {id:geratorId(), name, value, active, img, describ};
+        }
         serviceModel.save(service)
         res.redirect('/services/adm/show')
     },
@@ -23,11 +29,16 @@ const serviceController = {
     },
     update: (req, res) => {
         const {id} = req.params;
-        const {name, value, active, img, describ} = req.body;
-        const serviceUpdate = {id, name, value, active, img, describ};
+        if(req.file){
+            const img = req.file.filename;
+            const {name, value, active, describ} = req.body;
+            var serviceUpdate = {id, name, value, active, img, describ};
+        }else {
+            const {name, value, img, active, describ} = req.body;
+            var serviceUpdate = {id, name, value, active, img, describ};
+        }
         serviceModel.update(id, serviceUpdate);
-        console.log(serviceUpdate)
-        res.redirect('/');
+        res.redirect('/services/adm/show');
     },
     showAdm: (req, res) => {
         const services = serviceModel.findAll()
@@ -35,6 +46,8 @@ const serviceController = {
     },
     destroy: (req, res) => {
         const {id} = req.body;
+        const imgLocal = serviceModel.findById(id)
+        // Aplicar o path.remove https://github.com/jprichardson/node-fs-extra/blob/HEAD/docs/remove.md
         serviceModel.delete(id)
         res.redirect('/services/adm/show');
     }

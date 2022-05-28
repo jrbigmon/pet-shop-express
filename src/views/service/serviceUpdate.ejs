@@ -30,24 +30,31 @@
                 <td> <%= service.name %> </td>
                 <td> <%= service.value %> </td>
                 <td> <%= service.active %> </td>
-                <td>  <%= service.img %> </td>
+                <td>  <% if(service.img.substr(0, 5)== 'https') { %> 
+                  <img src="<%= service.img %>" alt=""class="section-img"> 
+              <% } else { %>
+                  <img src='/images/imgService/<%= service.img %>' alt=""class="section-img"> 
+             <% } %> </td>
                 <td> <%= service.describ %> </td>
               </tr>
-             <form  method="POST" action="/services/adm/update/<%= service.id %>?_method=PUT">
+             <form  method="POST" action="/services/adm/update/<%= service.id %>?_method=PUT" enctype="multipart/form-data">
               <tr>
                 <th scope="row"></th>
-                <td> <input type="text" name="name" placeholder="name" > </td>
-                <td> <input type="text" name="value" placeholder="valor" > </td>
+                <td> <input type="text" name="name" placeholder="name" value="<%= service.name %>"> </td>
+                <td> <input type="text" name="value" placeholder="valor" value="<%= service.value %>" > </td>
                 <td>
                   <label for="ativo"> habilitado 
-                    <input type="radio" id="ativo" name="active" value="true">
+                    <input type="radio" id="ativo" name="active" value='true' >
                   </label> 
                   <label for="inativo"> Desabilitado
-                    <input type="radio" id="inativo" name="active" value="false"> 
+                    <input type="radio" id="inativo" name="active" value='false' > 
                   </label>
                 </td>
-                <td> <input type="text" name="img" placeholder="Imagem" > </td>
-                <td> <textarea name="describ" id="" cols="30" rows="5"></textarea> </td>
+                <td> 
+                  <input type="text" name="img" placeholder="Imagem" value="<%= service.img %>" > 
+                  <input type="file" name="img" >
+                </td>
+                <td> <textarea name="describ" id="" cols="30" rows="5"> <%= service.describ %> </textarea> </td>
               </tr>
               <tr>
                <td> <button type="submit" class="btn btn-success"> Update </button> </td>

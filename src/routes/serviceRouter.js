@@ -25,7 +25,7 @@ router.post('/services/adm/create', fileUpload.single('img'), serviceController.
 router.get('/services/adm/show', serviceController.showAdm);
 
 router.get('/services/adm/update/:id', serviceController.showUpdate);
-router.put('/services/adm/update/:id', serviceController.update);
+router.put('/services/adm/update/:id', fileUpload.single('img'), serviceController.update);
 
 router.delete('/services/adm/delete/:id', serviceController.destroy)
 module.exports = router

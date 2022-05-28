@@ -9,7 +9,7 @@ const open = () => {
 }
 
 const store = (db) => {
-  const content = JSON.stringify(db);
+  const content = JSON.stringify(db, null, 4);
   fs.writeFileSync(database, content, 'utf8');
 }
 

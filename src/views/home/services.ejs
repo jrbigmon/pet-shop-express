@@ -9,17 +9,21 @@
 
     <main>
         <h1 id="service-title"> SERVIÇOS </h1>
-        <% servicos.forEach(servico => { %>
+        <% servicos.forEach(service => { %>
         <section class="section section-1">
-            <img class="section-img" src="<%= servico.img %>" alt="">
+            <% if(service.img.substr(0, 5)== 'https') { %> 
+                <img src="<%= service.img %>" alt="" class="section-img"> 
+            <% } else { %>
+                <img src='/images/imgService/<%= service.img %>' alt="" class="section-img"> 
+           <% } %>
 
             <div class="section-describ">
-                <p class="describ-title"> <%= servico.name %> </p>
+                <p class="describ-title"> <%= service.name %> </p>
 
-                <p class="describ-valor"> R$ <%= servico.value %> </p>
-                <p> <%= servico.describ %> </p>
+                <p class="describ-valor"> R$ <%= service.value %> </p>
+                <p> <%= service.describ %> </p>
 
-                <a href="/services/<%= servico.id %>"> agendar </a>
+                <a href="/services/<%= service.id %>"> agendar </a>
             </div>
         </section>
         <% }) %>

@@ -8,6 +8,7 @@ let homeRouter = require('./src/routes/homeRouter');
 let serviceRouter = require('./src/routes/serviceRouter');
 
 app.use(methodOverride("_method"));
+
 app.use(express.json()); // capture JSON of body 
 app.use(express.urlencoded({ extended: false }));
 

@@ -1,5 +1,7 @@
 const serviceModel = require('../model/serviceModel')
 const { v4: geratorId } = require('uuid');
+const fs = require('fs-extra')
+const path = require('path')
 
 const serviceController = {
     index: (req, res) => {
@@ -45,9 +47,14 @@ const serviceController = {
         res.render('./service/serviceAdmShow', {title: 'ShowAdm', services})
     },
     destroy: (req, res) => {
-        const {id} = req.body;
-        const imgLocal = serviceModel.findById(id)
-        // Aplicar o path.remove https://github.com/jprichardson/node-fs-extra/blob/HEAD/docs/remove.md
+        const {id} = req.params;
+        const service = serviceModel.findById(id);
+        console.log(service.img)
+        const localFile = path.resolve('public', 'images', 'imgService', service.img);
+        fs.remove(localFile, err => {
+            if (err) return console.error(err)
+            console.log('success!')
+          })
         serviceModel.delete(id)
         res.redirect('/services/adm/show');
     }

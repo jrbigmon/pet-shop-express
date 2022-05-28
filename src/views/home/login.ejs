@@ -4,6 +4,23 @@
 <link rel="stylesheet" href="/css/login.css">
 <body>
     <%- include('../partials/header')  %>
-    <%- include('../partials/footer')  %>
+    <main class="main-login">
+        <section class="img-cat">
+            <img src="/images/imgHome/manAndCat.png" alt="Homem e Gato em um sofá">
+        </section>
+
+        <section class="table-login">
+            <h1> LOGIN </h1>
+            <form action="/login" method="GET">
+                <input type="email" name="email" id="">
+                <br>
+                <input type="password" name="password" id="">
+                <br>
+                <button type="submit" class="btn"> Entrar </button>
+            </form>
+            <a href="/cadastro"> Cadastrar-me </a>
+        </section>
+    </main>
+    
 </body>
 </html>

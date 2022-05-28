@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
 const database = path.join('src', 'database', 'database.json');
 
@@ -42,7 +42,7 @@ const serviceModel = {
     },
     delete: (id) => {
         const db = open();
-        const index = db.services.findIndex(service => service.id == id)
+        const index = db.services.findIndex(service => service.id == id);
         db.services.splice(index, 1);
         store(db);
     }

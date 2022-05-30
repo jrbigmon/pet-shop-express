@@ -7,7 +7,7 @@ const serviceController = {
     index: (req, res) => {
         const {id} = req.params;
         const index = serviceModel.findById(id);
-        res.render('./service/index', {index, title: 'Service'})
+        return res.render('./service/index', {index, title: 'Service'})
     },
     create: (req, res) => {
         if(req.file){
@@ -19,15 +19,15 @@ const serviceController = {
             var service = {id:geratorId(), name, value, active, img, describ};
         }
         serviceModel.save(service)
-        res.redirect('/services/adm/show')
+        return res.redirect('/services/adm/show')
     },
     showCreate: (req, res) => {
-        res.render('./service/serviceRegister', {title: 'create'})
+        return res.render('./service/serviceCreate', {title: 'create'})
     },
     showUpdate: (req, res) => {
         const {id} = req.params;
         const service = serviceModel.findById(id);
-        res.render('./service/serviceUpdate', {title: 'update', service})
+        return res.render('./service/serviceUpdate', {title: 'update', service})
     },
     update: (req, res) => {
         const {id} = req.params;
@@ -40,11 +40,11 @@ const serviceController = {
             var serviceUpdate = {id, name, value, active, img, describ};
         }
         serviceModel.update(id, serviceUpdate);
-        res.redirect('/services/adm/show');
+        return res.redirect('/services/adm/show');
     },
     showAdm: (req, res) => {
         const services = serviceModel.findAll()
-        res.render('./service/serviceAdmShow', {title: 'ShowAdm', services})
+        return res.render('./service/serviceShow', {title: 'ShowAdm', services})
     },
     destroy: (req, res) => {
         const {id} = req.params;
@@ -56,7 +56,7 @@ const serviceController = {
             console.log('success!')
           })
         serviceModel.delete(id)
-        res.redirect('/services/adm/show');
+        return res.redirect('/services/adm/show');
     }
 }
 

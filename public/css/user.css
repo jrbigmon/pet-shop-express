@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-profile{
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    margin: 100px;
+}
+.text-profile .data-profile{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.main-create-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+.section-create form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFBE51;
+    text-align: center;
+    
+}

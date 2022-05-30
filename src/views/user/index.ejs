@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/css/user.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<%- include('../partials/head') %>
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <main class="main-user">
+        
+        <section class="card-profile">
+            <% if(user.img.substr(0, 5) == 'https') { %> 
+                <img src= <%= user.img %> alt="" class="section-img"> 
+            <% } else { %>
+                <img src='/images/imgUser/<%= user.img %>' alt=""class="section-img"> 
+           <% } %>
+
+            <div class="text-profile">
+                <p class="data-profile"> <%= user.name + ' ' + user.lastName %> </p>
+
+                <p class="data-profile"> <%= user.email %> </p>
+            </div>
+            <a href="/login/update/<%= user.id %> " class="btn btn-primary"> Editar Perfil </a>
+            <a href="#" class="btn btn-danger"> Deletar Perfil </a>
+        </section>
+    </main>
+    <%- include('../partials/footer')  %>
+</body>
+
+</html>

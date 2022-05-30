@@ -3,7 +3,7 @@
         {
             "id": "1",
             "name": "Banho e Tosa",
-            "value": "50,00",
+            "value": "50.00",
             "active": false,
             "img": "https://1.bp.blogspot.com/-Wq2lcq9_a4I/Tc2lLWOkNVI/AAAAAAAABVM/Wao0rm-vWe4/s1600/gatinho-5755.jpg",
             "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat."
@@ -11,10 +11,10 @@
         {
             "id": "2",
             "name": "Consulta veterinária",
-            "value": "250,00",
+            "value": "250.00",
             "active": "true",
             "img": "https://static8.depositphotos.com/1009420/885/i/600/depositphotos_8853147-stock-photo-group-of-five-dogs.jpg",
-            "describ": "              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.              "
+            "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.              "
         },
         {
             "id": "6cdcd06e-5753-4e39-bffd-b3ce0625239c",
@@ -22,40 +22,42 @@
             "value": "200.00",
             "active": "true",
             "img": "https://i1.wp.com/www.fatosdesconhecidos.com.br/wp-content/uploads/2019/05/cachorro-sorrindo.jpg?fit=450%2C300&ssl=1",
-            "describ": " Limpeza de tartaros e caries. "
+            "describ": "Limpeza de tartaros e caries. "
         }
     ],
-    "pets": [
-        {
-            "id": "1",
-            "name": "Binho",
-            "petType": "Dog",
-            "age": "10 years",
-            "size": "medium"
-        },
-        {
-            "id": "2",
-            "name": "Marrye",
-            "petType": "Cat",
-            "age": "4 years",
-            "size": "small"
-        }
-    ],
+    "pets": [],
     "users": [
         {
-            "id": "1",
+            "id": "ca79ff83-473d-4525-8aa4-00afbdc0de5f",
+            "name": "teste",
+            "lastName": "",
+            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
+            "email": "teste@teste",
+            "password": "123"
+        },
+        {
+            "id": "22201ec2-48bc-4162-ba24-8fe8a5f3fa9f",
             "name": "Vagner",
-            "height": "1.80"
+            "lastName": "",
+            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
+            "email": "Email@email",
+            "password": "123"
         },
         {
-            "id": "2",
-            "name": "Aretha",
-            "height": "1.65"
+            "id": "955d5bd4-fefb-4d27-ad31-a34ef6078cf4",
+            "name": "Vagner",
+            "lastName": "",
+            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
+            "email": "teste@teste",
+            "password": "123456"
         },
         {
-            "id": "3",
-            "name": "Aretha Silverio",
-            "height": "1.65"
+            "id": "beefe9f8-ef4f-4aa9-862e-cd0a8ccd226c",
+            "name": "aretha",
+            "lastName": "",
+            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
+            "email": "are@email.com",
+            "password": "123"
         }
     ]
 }

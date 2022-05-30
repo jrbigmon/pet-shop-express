@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/css/user.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<%- include('../partials/head') %>
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <main class="main-create-user">
+
+       <section id="image-ilustration">
+            <img src="/images/imgHome/profileCreate.png" alt="">
+       </section>
+
+       <section class="section-create">
+
+            <h1>CADASTRA-SE</h1>
+
+            <form action="/users/create" method="POST">
+
+                <label for="">
+                    <input type="text" name="name" id="" placeholder="nome">
+                </label>
+
+                <label for="">
+                    <input type="email" name="email" id="" placeholder="email">
+                </label>
+
+                <label for="">
+                    <input type="password" name="password" id="password" placeholder="senha">
+                </label>
+                
+                <button type="submit" class="btn btn-warning">Enviar</button>
+
+            </form>
+       </section>
+    </main>
+
+    <%- include('../partials/footer')  %>
+
+</body>
+
+</html>

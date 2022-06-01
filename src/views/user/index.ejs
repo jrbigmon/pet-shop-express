@@ -12,7 +12,8 @@
 
     <main class="main-user">
         
-        <section class="card-profile">
+        <section class="card-profile section-create">
+
             <% if(user.img.substr(0, 5) == 'https') { %> 
                 <img src= <%= user.img %> alt="" class="section-img"> 
             <% } else { %>
@@ -24,8 +25,13 @@
 
                 <p class="data-profile"> <%= user.email %> </p>
             </div>
+
             <a href="/login/update/<%= user.id %> " class="btn btn-primary"> Editar Perfil </a>
-            <a href="#" class="btn btn-danger"> Deletar Perfil </a>
+
+            <form action="/login/delete/<%= user.id %>?_method=DELETE" method="POST">
+                <button type="submit" class="btn btn-danger">Deletar</button>
+            </form>
+
         </section>
     </main>
     <%- include('../partials/footer')  %>

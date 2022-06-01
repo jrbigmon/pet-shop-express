@@ -15,48 +15,18 @@
             "active": "true",
             "img": "https://static8.depositphotos.com/1009420/885/i/600/depositphotos_8853147-stock-photo-group-of-five-dogs.jpg",
             "describ": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quaerat.              "
-        },
-        {
-            "id": "6cdcd06e-5753-4e39-bffd-b3ce0625239c",
-            "name": "Limpeza dentária",
-            "value": "200.00",
-            "active": "true",
-            "img": "https://i1.wp.com/www.fatosdesconhecidos.com.br/wp-content/uploads/2019/05/cachorro-sorrindo.jpg?fit=450%2C300&ssl=1",
-            "describ": "Limpeza de tartaros e caries. "
         }
     ],
     "pets": [],
     "users": [
         {
-            "id": "ca79ff83-473d-4525-8aa4-00afbdc0de5f",
-            "name": "teste",
+            "id": "449a3e66-4075-4a5b-8119-de668e3db0d6",
+            "name": "vagner",
             "lastName": "",
             "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
+            "tel": "",
+            "date": "",
             "email": "teste@teste",
-            "password": "123"
-        },
-        {
-            "id": "22201ec2-48bc-4162-ba24-8fe8a5f3fa9f",
-            "name": "Vagner",
-            "lastName": "",
-            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
-            "email": "Email@email",
-            "password": "123"
-        },
-        {
-            "id": "955d5bd4-fefb-4d27-ad31-a34ef6078cf4",
-            "name": "Vagner",
-            "lastName": "",
-            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
-            "email": "teste@teste",
-            "password": "123456"
-        },
-        {
-            "id": "beefe9f8-ef4f-4aa9-862e-cd0a8ccd226c",
-            "name": "aretha",
-            "lastName": "",
-            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
-            "email": "are@email.com",
             "password": "123"
         }
     ]

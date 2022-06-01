@@ -11,33 +11,43 @@
     <%- include('../partials/header') %>
 
     <main class="main-user">
-        <section>
+        <section class="section-create">
+            <h1> Editar Perfil </h1>
             <h1> <%= user.name%> </h1>
-            <form action="">
+            <% if(user.img.substr(0, 5)== 'https') { %>
+            <img src="<%= user.img %>" alt="" >
+            <% } else { %>
+            <img src='/images/imgUser/<%= user.img %>' alt="">
+            <% } %>
+            <form action="/login/update/<%= user.id %>?_method=PUT" method="POST" enctype="multipart/form-data" >
 
-                <img src="images/imgUser" alt="">
+                <input type="file" name="img" value="<%=user.img %>"> <br>
+                <input type="text" name="img" placeholder="Imagem" value="<%= user.img %>"> 
 
-                <label for=""> <%= user.name%>
-                    <input type="text" name="name" placeholder="<%= user.name%>">
-                </label>
-               
-                <label for="">
-                    <input type="text">
-                </label>
-               
-                <label for="">
-                    <input type="email">
-                </label>
-               
-                <label for="">
-                    <input type="tel">
-                </label>
-               
-                <label for="">
-                    <input type="text">
+                <label for=""> Nome: <br>
+                    <input class="form-control" type="text" name="name" placeholder="Nome" value="<%=user.name %>">
                 </label>
 
+                <label for=""> Sobrenome: <br>
+                    <input class="form-control" type="text" name="lastName" placeholder="Sobrenome"
+                        value="<%=user.lastName %>">
+                </label>
+
+                <label for=""> Email: <br>
+                    <input class="form-control" type="email" name="email" placeholder="Email" value="<%=user.email %>">
+                </label>
+
+                <label for=""> Telefone: <%= user.tel %> <br>
+                    <input class="form-control" type="tel" name="tel" placeholder="(XX)9XXXX-XXXX" value="<%=user.tel %>">
+                </label>
+
+                <label for=""> Data de nascimento: <br>
+                    <input class="form-control" type="date" name="date" value="<%=user.date %>">
+                </label>
+
+                <button type="submit" class="btn btn-primary">Atualizar</button>
             </form>
+            <a href="/login"></a>
         </section>
     </main>
     <%- include('../partials/footer')  %>

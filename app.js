@@ -8,16 +8,13 @@ let homeRouter = require('./src/routes/homeRouter');
 let serviceRouter = require('./src/routes/serviceRouter');
 
 app.use(methodOverride("_method"));
+app.use(express.static('public'));  // file in public folder view for client
 
 app.use(express.json()); // capture JSON of body 
 app.use(express.urlencoded({ extended: false }));
 
 app.set('view engine', 'ejs'); // configuration of view engine ejs
 app.set('views', './src/views');
-
-
-app.use(express.static('public'));  // file in public folder view for client
-
 
 app.use(homeRouter); // search home page in homeRouter
 app.use(userRouter); // search routes of user

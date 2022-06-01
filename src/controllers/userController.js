@@ -1,5 +1,7 @@
 const userModel = require('../model/userModel');
 const { v4: geratorId } = require('uuid');
+const fs = require('fs-extra');
+const path = require('path');
 
 const userController = {
     show: (req, res) => {
@@ -9,7 +11,11 @@ const userController = {
     index: (req, res) => {
         const {email, password} = req.body;
         let user = userModel.login(email, password);
-        return res.render('./user/index', {user, title: 'users'});
+        if (user) {
+           return res.render('./user/index', {user, title: 'users'});
+        } else {
+           return res.render('./home/login', {title: 'login'})
+        }
     },
     login: (req, res) => {
         return res.render('./home/login', {title: 'login'})
@@ -26,9 +32,17 @@ const userController = {
     },
     update: (req, res) => {
         const {id} = req.params;
-        const {name, lastName, img, email, password} = req.body;
-        userModel.update({id, name, lastName, img, email, password});
-        return res.redirect('/users/show');
+        const user = userModel.findById(id);
+        const password = user.password;
+        if(req.file){
+            const img = req.file.filename;
+            const {name, lastName, email, tel, date} = req.body;
+            userModel.update(id, {id, name, lastName, img, tel, date, email, password});
+        } else {
+            const {name, lastName, img, email, tel, date} = req.body;
+            userModel.update(id, {id, name, lastName, img, tel, date, email, password});
+        }
+        return res.redirect('/login/update/' +  id);
     },
     updateShow: (req, res) => {
         const {id} = req.params;
@@ -37,7 +51,13 @@ const userController = {
     },
     destroy: (req, res) => {
         const {id} = req.params;
-        userModel.delete(id);
+        const user = userModel.findById(id);
+        const localFile = path.resolve('public', 'images', 'imgUser', user.img);
+        fs.remove(localFile, err => {
+            if (err) return console.error(err)
+            console.log('success!')
+          })
+        userModel.delete(id)
         return res.redirect('/users/show');
     },
 };

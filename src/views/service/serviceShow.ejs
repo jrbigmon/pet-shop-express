@@ -39,8 +39,8 @@
             <% } %> </td>
           <td> <%= element.describ %> </td>
           <td>
-            <a href="/services/adm/update/<%= element.id %>" class="btn btn-primary"> Editar </a>
             <form action="/services/adm/delete/<%= element.id %>?_method=DELETE" method="POST">
+              <a href="/services/adm/update/<%= element.id %>" class="btn btn-primary"> Editar </a>
               <button type="submit" class="btn btn-danger">Deletar</button>
             </form>
           </td>

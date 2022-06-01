@@ -32,6 +32,12 @@ const serviceController = {
     update: (req, res) => {
         const {id} = req.params;
         if(req.file){
+            const service = serviceModel.findById(id);
+            const localFile = path.resolve('public', 'images', 'imgService', service.img);
+            fs.remove(localFile, err => {
+                if (err) return console.error(err)
+                console.log('success!')
+            })
             const img = req.file.filename;
             const {name, value, active, describ} = req.body;
             var serviceUpdate = {id, name, value, active, img, describ};
@@ -49,7 +55,6 @@ const serviceController = {
     destroy: (req, res) => {
         const {id} = req.params;
         const service = serviceModel.findById(id);
-        console.log(service.img)
         const localFile = path.resolve('public', 'images', 'imgService', service.img);
         fs.remove(localFile, err => {
             if (err) return console.error(err)

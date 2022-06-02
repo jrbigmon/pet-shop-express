@@ -19,21 +19,33 @@
        <section class="section-create">
 
             <h1>CADASTRA-SE</h1>
-
             <form action="/users/create" method="POST">
+                    <% if (errors !== 'undefined') { %> 
+                        <ul>
+                             <% for (error in errors) { %>
+                             <li>
+                                 <%= errors[error].msg %> 
+                             </li>
+                             <% } %> 
+                        </ul>
+                     <% } %> 
+                </div>
 
                 <label for="">
-                    <input type="text" name="name" id="" placeholder="nome">
+                    <input type="text" name="name"  placeholder="nome" value="<%= locals.old && old.name %>">
                 </label>
 
                 <label for="">
-                    <input type="email" name="email" id="" placeholder="email">
+                    <input type="email" name="email"  placeholder="email" value="<%= locals.old && old.email %>">
                 </label>
 
                 <label for="">
                     <input type="password" name="password" id="password" placeholder="senha">
                 </label>
-                
+                <label for="">
+                    <input type="password" name="passwordConfirm" id="password" placeholder="confirmar senha">
+                </label> 
+
                 <button type="submit" class="btn btn-warning">Enviar</button>
 
             </form>

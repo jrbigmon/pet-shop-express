@@ -2,6 +2,7 @@ const userModel = require('../model/userModel');
 const { v4: geratorId } = require('uuid');
 const fs = require('fs-extra');
 const path = require('path');
+const {validationResult} = require('express-validator');
 
 const userController = {
     show: (req, res) => {
@@ -20,15 +21,21 @@ const userController = {
     login: (req, res) => {
         return res.render('./home/login', {title: 'login'})
     },
-    create: (req, res) => {
-        const {name, email, password} = req.body;
-        const img = "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI="
-        const newUser = {id:geratorId(), name, lastName: '', img, email, password};
-        userModel.save(newUser);
-        return res.redirect('/login');  
-    },
     createShow: (req, res) => {
-        return res.render('./user/userCreate', {title:'userCreate'})  
+        const errors = 'undefined'
+        return res.render('./user/userCreate', {title:'userCreate', errors})  
+    },
+    create: (req, res) => {
+        const errors = validationResult(req)
+        if (!errors.isEmpty()){
+            return res.render('./user/userCreate', {title:'userCreate', errors: errors.mapped(), old: req.body}) 
+        } else{
+            const {name, email, password} = req.body;
+            const img = "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI="
+            const newUser = {id:geratorId(), name, lastName: '', img, email, password};
+            userModel.save(newUser);
+            return res.redirect('/login');  
+        }
     },
     update: (req, res) => {
         const {id} = req.params;

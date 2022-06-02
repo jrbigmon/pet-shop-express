@@ -2,6 +2,7 @@ const serviceModel = require('../model/serviceModel')
 const { v4: geratorId } = require('uuid');
 const fs = require('fs-extra')
 const path = require('path')
+const {validationResult} = require('express-validator')
 
 const serviceController = {
     index: (req, res) => {
@@ -10,6 +11,10 @@ const serviceController = {
         return res.render('./service/index', {index, title: 'Service'})
     },
     create: (req, res) => {
+        const errors = validationResult(req)
+        if(!errors.isEmpty()){
+            return res.render('./service/serviceCreate', {title: 'create', errors: errors.mapped(), old: req.body})
+        }
         if(req.file){
             const img = req.file.filename;
             const {name, value, active, describ} = req.body;
@@ -22,7 +27,8 @@ const serviceController = {
         return res.redirect('/services/adm/show')
     },
     showCreate: (req, res) => {
-        return res.render('./service/serviceCreate', {title: 'create'})
+        const errors = 'undefined'
+        return res.render('./service/serviceCreate', {title: 'create', errors})
     },
     showUpdate: (req, res) => {
         const {id} = req.params;

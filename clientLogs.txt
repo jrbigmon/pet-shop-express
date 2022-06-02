@@ -1,0 +1,14 @@
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:31:44 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:31:50 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:33:51 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: quebrou, Data: 02 06 2022 17:34:24 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:51:40 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:51:40 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:51:54 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:51:54 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:55:37 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:55:37 
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:55:42 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:55:42 
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:55:44 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 02 06 2022 17:55:44 

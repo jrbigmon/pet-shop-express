@@ -36,6 +36,16 @@
             "date": "1997-10-29",
             "email": "teste@teste",
             "password": "12345688"
+        },
+        {
+            "id": "87d292ac-4485-498c-a4b3-bf718a8c4d07",
+            "name": "Vagner",
+            "lastName": "Terriaga",
+            "img": "1654278388712imag.png",
+            "tel": "(11)956542085",
+            "date": "2021-11-11",
+            "email": "teste@teste",
+            "password": "123456"
         }
     ]
 }

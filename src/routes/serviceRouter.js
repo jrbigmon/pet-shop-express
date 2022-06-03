@@ -1,13 +1,14 @@
 const serviceController = require('../controllers/serviceController');
 const express = require('express');
 const router = express.Router();
+
 const storageDisk = require('../../config/storage');
-const middlewares = require('../../config/middlewares')
+const validatorService = require('../../config/validatorService')
 
 router.get('/services/:id', serviceController.index);
 
 router.get('/services/adm/create', serviceController.showCreate);
-router.post('/services/adm/create', storageDisk('imgService').single('img'), middlewares.validatorService, serviceController.create);
+router.post('/services/adm/create', storageDisk('imgService').single('img'), validatorService, serviceController.create);
 
 
 router.get('/services/adm/show', serviceController.showAdm);

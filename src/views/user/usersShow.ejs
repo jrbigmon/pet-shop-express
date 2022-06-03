@@ -11,9 +11,9 @@
         <% users.forEach( user => { %>
         <section class="card-profile">
             <% if(user.img.substr(0, 5)== 'https') { %>
-            <img src="<%= user.img %>" alt="" class="section-img">
+            <img src="<%= user.img %>" alt="" class="section-img" style="width:100px; height:100px">
             <% } else { %>
-            <img src='/images/imgUser/<%= user.img %>' alt="" class="section-img">
+            <img src='/images/imgUser/<%= user.img %>' alt="" class="section-img" style="width:100px; height:100px">
             <% } %>
 
             <div class="text-profile">

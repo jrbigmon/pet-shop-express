@@ -1,7 +1,7 @@
 const serviceModel = require('../model/serviceModel')
-const { v4: geratorId } = require('uuid');
 const fs = require('fs-extra')
 const path = require('path')
+const { v4: geratorId } = require('uuid');
 const {validationResult} = require('express-validator')
 
 const serviceController = {
@@ -23,6 +23,7 @@ const serviceController = {
             var {name, value, img, active, describ} = req.body;
             var service = {id:geratorId(), name, value, active, img, describ};
         }
+        console.log(img)
         serviceModel.save(service)
         return res.redirect('/services/adm/show')
     },

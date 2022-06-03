@@ -2,7 +2,7 @@ const userController = require('../controllers/userController');
 const express = require('express');
 const router = express.Router();
 const storageDisk = require('../../config/storage');
-const middlewares = require('../../config/middlewares');
+const validatorUser = require('../../config/validatorUser');
 
 router.get('/users/show', userController.show)
 
@@ -10,7 +10,7 @@ router.get('/login', userController.login)
 router.post('/login', userController.index)
 
 router.get('/users/create', userController.createShow)
-router.post('/users/create', middlewares.validatorUser, userController.create);
+router.post('/users/create', validatorUser, userController.create);
 
 router.put('/login/update/:id', storageDisk('imgUser').single('img'),userController.update)
 router.get('/login/update/:id', userController.updateShow)

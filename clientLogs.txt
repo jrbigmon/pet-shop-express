@@ -289,3 +289,17 @@ Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03
 Rota: /services/adm/delete/0da91982-79d5-4c44-9a1a-853f1fa43bda?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 16:06:01 
 Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 16:06:01 
 Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 16:06:02 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:26:42 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:26:44 
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:24 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:25 
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:28 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:29 
+Rota: /services/adm/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:29 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:30 
+Rota: /services/adm/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:41 
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:42 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:43 
+Rota: /services/adm/delete/d2e115df-9a8f-40cd-8116-76f66e6e90bf?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:47 
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:47 
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 03 06 2022 19:28:47 

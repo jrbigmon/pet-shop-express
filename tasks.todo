@@ -8,7 +8,7 @@ Caso tenha marcado como finalizada por engano, basta realizar o mesmo procedimen
 Para bom aproveitamento desta aula, será enviado o arquivo: registrar.ejs. Este arquivo deve ser colocado dentro da pasta: view/home:
 
 Em nosso banco de dados, será necessário adicionar uma nova propriedade, a de usuarios:
-    ✔ Acessar o arquivo db.json e criar a propriedade usuarios que será um array de objetos. @done(22-06-02 15:27)
+    ✔ Acessar o arquivo db.json e criar a propriedade usuarios que será um array de objetos. @done(22-06-06 20:49)
     ✔ Cadastrar um usuário de teste exemplo: @done(22-06-02 15:27)
         {
             "id": 1,

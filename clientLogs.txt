@@ -20,3 +20,15 @@ Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 06 
 
 Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200 OK, Data: 06 06 2022 20:16:59 
 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:36:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:36:19 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:36:20 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:36:20 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:38:15 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:38:15 
+

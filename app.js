@@ -2,7 +2,6 @@ const express = require('express');
 const app = express(); // functions express
 
 const methodOverride = require('method-override');
-const middlewares = require('./config/middlewares');
 const requestLogs = require('./config/requestLogs');
 
 let userRouter = require('./src/routes/userRouter');

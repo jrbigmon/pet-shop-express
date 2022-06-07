@@ -22,7 +22,7 @@ const userController = {
         return res.render('./home/login', {title: 'login'})
     },
     createShow: (req, res) => {
-        const errors = 'undefined'
+        const errors = undefined;
         return res.render('./user/userCreate', {title:'userCreate', errors})  
     },
     create: (req, res) => {

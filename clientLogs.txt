@@ -36,3 +36,11 @@ Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:44
 
 Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:44:43 
 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:53:27 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:53:27 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:54:27 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 20:54:28 
+

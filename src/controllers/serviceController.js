@@ -8,12 +8,12 @@ const serviceController = {
     index: (req, res) => {
         const {id} = req.params;
         const index = serviceModel.findById(id);
-        return res.render('./service/index', {index, title: 'Service'})
+        return res.render('./adm/service/index', {index, title: 'Service'})
     },
     create: (req, res) => {
         const errors = validationResult(req)
         if(!errors.isEmpty()){
-            return res.render('./service/serviceCreate', {title: 'create', errors: errors.mapped(), old: req.body})
+            return res.render('./adm/service/serviceCreate', {title: 'create', errors: errors.mapped(), old: req.body})
         }
         if(req.file){
             const img = req.file.filename;
@@ -29,12 +29,12 @@ const serviceController = {
     },
     showCreate: (req, res) => {
         const errors = 'undefined'
-        return res.render('./service/serviceCreate', {title: 'create', errors})
+        return res.render('./adm/service/serviceCreate', {title: 'create', errors})
     },
     showUpdate: (req, res) => {
         const {id} = req.params;
         const service = serviceModel.findById(id);
-        return res.render('./service/serviceUpdate', {title: 'update', service})
+        return res.render('./adm/service/serviceUpdate', {title: 'update', service})
     },
     update: (req, res) => {
         const {id} = req.params;
@@ -57,7 +57,7 @@ const serviceController = {
     },
     showAdm: (req, res) => {
         const services = serviceModel.findAll()
-        return res.render('./service/serviceShow', {title: 'ShowAdm', services})
+        return res.render('./adm/service/serviceShow', {title: 'ShowAdm', services})
     },
     destroy: (req, res) => {
         const {id} = req.params;

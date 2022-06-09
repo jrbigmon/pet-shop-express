@@ -1,6 +1,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const database = path.join('src', 'database', 'database.json');
+const bcrypt = require('bcrypt');
 
 const open = () => {
     let content = fs.readFileSync(database, 'utf8');
@@ -13,38 +14,48 @@ const store = (db) => {
   fs.writeFileSync(database, content, 'utf8');
 }
 
-const write = (db) => {
-    const content = JSON.stringify(db);
-    fs.appendFileSync(database, content, 'utf8');
-    return db;
-}
-
 const userModel = {
     login: (email, password) => {
         const db = open();
-        const user = db.users.find(user => user.email == email && user.password == password)
-        return user;
+        const user = db.users.find(user => user.email == email)
+        if(user){
+         const validation = bcrypt.compare(password, user.password);
+         if(validation){
+             return user;
+         }
+        }
     },
+    
+    findByField: (input, value) => {
+        const db = open();
+        const user = db.users.find(user => user[input] == value)
+        return user;   
+    },
+
     findAll: () => {
         const db = open();
         return db.users;
     },
+
     findById: (id) => {
         const db = open();
         const usersSearch = db.users.find(user => user.id == id);
         return usersSearch;
-    }, 
+    },
+
     save: (user) => {
         const db = open();
         db.users.push(user);
         store(db); 
     },
+
     update: (id, user) => {
         const db = open();
         const index = db.users.findIndex(user => user.id == id)
         db.users[index] = user;
         store(db);
     },
+
     delete: (id) => {
         const db = open();
         const index = db.users.findIndex(user => user.id == id);

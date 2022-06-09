@@ -148,3 +148,1073 @@ Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 06 
 
 Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 06 06 2022 22:00:45 
 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:09 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:11 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:11 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:11 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:19 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:57 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:16:58 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:22:33 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:24:36 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:24:36 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:24:43 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:24:43 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:25:45 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:25:45 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:29:16 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:29:55 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:33 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:33 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:36 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:36 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:38 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:38 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:44 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:44 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:52 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:31:53 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 17:35:45 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:35:46 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:05 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:06 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:11 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:11 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:16 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:16 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:29 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:30 
+
+Rota: /login/delete/59305bdf-e69b-472b-834b-5796117550f9?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:31 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:32 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:35 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:35 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:41 
+
+Rota: /login/delete/87d292ac-4485-498c-a4b3-bf718a8c4d07?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:46 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:46 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:36:46 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:43:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:43:41 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:43:42 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:43:43 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:43:57 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:43:58 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:44:48 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:44:48 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:45:12 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:45:12 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:48:53 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:48:53 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:05 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:05 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:18 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:32 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:35 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:36 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:45 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:45 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:49:46 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:52:06 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:52:07 
+
+Rota: /login/update/99e32b33-ba15-4a77-97ae-9d73ca312609, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:52:12 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:52:12 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:54:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:54:41 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:54:47 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:54:47 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:55:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:55:37 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:58:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:58:37 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:58:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:58:40 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:22 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:22 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:29 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:30 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:32 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:32 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 17:59:37 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:00:50 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:00:53 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:01:49 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:01:49 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:02:03 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:02:03 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:02:04 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:02:04 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:02:14 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:02:14 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:02:14 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:10 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:10 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:13 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:13 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:38 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:38 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:48 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:48 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:07:48 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:37 
+
+Rota: /login/delete/99e32b33-ba15-4a77-97ae-9d73ca312609?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:41 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:41 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:42 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:42 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:58 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:58 
+
+Rota: /login/delete/d9de9158-a34e-4ec3-968f-91b14a2cf0c2?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:59 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:59 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:08:59 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:01 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:01 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:09 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:09 
+
+Rota: /login/delete/72887e8c-5d3e-4fa4-a95f-1ecc9214ded4?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:11 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:11 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:11 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:12 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:12 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:13 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:13 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:40 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:40 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:51 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:51 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:59 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:09:59 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:10:19 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:10:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:10:19 
+
+Rota: /users/show/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:10:24 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:10:24 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:10 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:12 
+
+Rota: /users/login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:12 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:12 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:52 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:52 
+
+Rota: /users/login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:53 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:53 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:56 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:42:57 
+
+Rota: /users/login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:43:01 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:43:01 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:43:08 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:43:08 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:43:10 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:43:12 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:43:12 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:45:00 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:45:00 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:45:03 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:45:03 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:46:10 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:46:11 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:46:46 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:46:46 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:46:50 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:46:50 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:00 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:01 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:07 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:08 
+
+Rota: /users/show/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:10 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:10 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:28 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:28 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:39 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:39 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:45 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:47:45 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:48:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:48:42 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:48:42 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:48:43 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:31 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:41 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:43 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:44 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:48 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:48 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 18:50:49 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787?_method=PUT, Metodo HTTP: PUT, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 18:50:50 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 18:50:50 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:50:51 
+
+Rota: /login/update/d4b3bd02-6948-4553-8cd9-0b26bc418787, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:00 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:00 
+
+Rota: /login/delete/d4b3bd02-6948-4553-8cd9-0b26bc418787?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:02 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:02 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:02 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:04 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:04 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:17 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:17 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:27 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:27 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:27 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:37 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:52:40 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:05 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:06 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:07 
+
+Rota: /services, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 18:53:15 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:16 
+
+Rota: /services/2, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:17 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:17 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 18:53:19 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:15 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:16 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:17 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:17 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:30 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:30 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:39 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:39 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:41 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:53 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:53 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:43:53 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:44:50 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:44:50 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:06 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:06 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:19 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:21 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:22 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:23 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:23 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:24 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079?_method=PUT, Metodo HTTP: PUT, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 19:45:31 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 19:45:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:32 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:37 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:45:38 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:15 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:15 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:17 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:17 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:31 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:49 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:49 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:49 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:58 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:52:58 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:08 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:08 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:14 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:14 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:30 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:30 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:39 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:39 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:39 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:49 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:49 
+
+Rota: /login/update/35c372a7-4d1b-414a-8f2d-99903bde544b, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:51 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:52 
+
+Rota: /login/delete/35c372a7-4d1b-414a-8f2d-99903bde544b?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:53 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:53 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:54 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:57 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:53:57 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:54:38 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:54:38 
+
+Rota: /login/update/cfae6b4a-8e1b-40ba-b08f-2d4bf1261240, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:54:39 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:54:39 
+
+Rota: /login/delete/cfae6b4a-8e1b-40ba-b08f-2d4bf1261240?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:54:44 
+
+Rota: /services/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:54:44 
+
+Rota: /services/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:04 
+
+Rota: /services/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:05 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:10 
+
+Rota: /login/update/cfae6b4a-8e1b-40ba-b08f-2d4bf1261240, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:11 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:14 
+
+Rota: /login/update/cfae6b4a-8e1b-40ba-b08f-2d4bf1261240, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:17 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:20 
+
+Rota: /login/update/cfae6b4a-8e1b-40ba-b08f-2d4bf1261240, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:22 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:24 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:26 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:26 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:31 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:47 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:47 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:49 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:49 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:51 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:51 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:52 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:54 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:54 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:55 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:55:55 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:56:04 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:56:04 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:57:53 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:57:53 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:57:53 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:02 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:02 
+
+Rota: /login/update/1f5177c0-0887-4dab-830d-ba2a30352b56, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:04 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:04 
+
+Rota: /login/delete/1f5177c0-0887-4dab-830d-ba2a30352b56?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:05 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:05 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:05 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:10 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:10 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:13 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:13 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:14 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:15 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:15 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:15 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:17 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 19:58:17 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:15:58 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:15:58 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:00 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:00 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:03 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:03 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:06 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:06 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:36 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:36 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:37 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:38 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:39 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:39 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:39 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:39 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:40 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:41 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:41 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:16:59 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:18:02 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:19 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:21 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:22 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:22 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:22 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:24 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:20:24 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:25 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:25 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:27 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:27 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:29 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:30 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:30 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:31 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:25:37 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:28:22 
+
+Rota: /img/logo-white.png, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:28:22 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:28:22 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:28:29 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:28:29 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:28:30 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:32:49 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:32:50 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:32:51 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:32:51 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:32:53 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:32:53 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:33:08 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:33:08 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:33:17 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:35:18 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:35:20 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:36:27 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:36:52 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:36:56 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:36:57 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:37:47 
+
+Rota: /users/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:38:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:38:31 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:21 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:21 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:22 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:22 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:23 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:23 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:36 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:37 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:39:38 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:40:08 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:40:08 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:04 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:05 
+
+Rota: /adm, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:08 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:08 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:09 
+
+Rota: /adm?email=junior%40gmail.com&senha=Jr13%4013s21, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:26 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:26 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:45:26 
+
+Rota: /adm?email=adm%40adm&senha=123456, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:22 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:22 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:22 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:24 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:25 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:36 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:36 
+
+Rota: /pets/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:42 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:43 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:43 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:44 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:45 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:45 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:50 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:50 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:52 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:52 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:58 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:58 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:46:59 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:00 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:00 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:02 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:02 
+
+Rota: /adm, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:05 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:05 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:05 
+
+Rota: /adm?email=&senha=, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:10 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:10 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:47:10 
+
+Rota: /adm, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:30 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:30 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:30 
+
+Rota: /adm/servicos/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:33 
+
+Rota: /adm, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:47 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:47 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:48 
+
+Rota: /adm/services/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:48 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:48 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:50 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:55 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:48:55 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:00 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:20 
+
+Rota: /adm/services/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:21 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:21 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:22 
+
+Rota: /adm, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:24 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:24 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:24 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:25 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:25 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:30 
+
+Rota: /pets/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:31 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:32 
+
+Rota: /pets/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:39 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:41 
+
+Rota: /services/adm/update/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:44 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:44 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:46 
+
+Rota: /services/adm/update/2, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:47 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:47 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:48 
+
+Rota: /services/adm/update/f7b3d30b-a3df-49ca-af5d-e3eee79f02e7, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:49 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:49 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 20:49:50 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:19 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:26 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:27 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:28 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:29 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:29 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:36 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:36 
+
+Rota: /users/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:40 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:40 
+
+Rota: /users/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:55 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:55 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:11:55 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:02 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:03 
+
+Rota: /login/update/4190dbe8-20b4-4749-b9ca-bdbb0a185dab, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:04 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:04 
+
+Rota: /login/update/4190dbe8-20b4-4749-b9ca-bdbb0a185dab?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:18 
+
+Rota: /login/update/4190dbe8-20b4-4749-b9ca-bdbb0a185dab, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:18 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:19 
+
+Rota: /login/delete/4190dbe8-20b4-4749-b9ca-bdbb0a185dab?_method=DELETE, Metodo HTTP: DELETE, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 21:12:36 
+
+Rota: /services, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 08 06 2022 21:12:36 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:12:36 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:12 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:12 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:26 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:26 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:30 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:30 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:37 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:38 
+
+Rota: /pets/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:42 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:42 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:43 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:44 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:44 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 08 06 2022 21:15:49 
+

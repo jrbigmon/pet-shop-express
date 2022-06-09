@@ -6,7 +6,7 @@ const validatorUser = require('../../config/validatorUser');
 
 router.get('/users/show', userController.show)
 
-router.get('/login', userController.login)
+router.get('/login', userController.loginShow)
 router.post('/login', userController.index)
 
 router.get('/users/create', userController.createShow)

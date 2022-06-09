@@ -1,10 +1,16 @@
-const {check, body} = require('express-validator')
+const {body} = require('express-validator');
+const userModel = require('../src/model/userModel');
 
 const validatorUser = [
-    check('name').notEmpty().withMessage('O nome não pode estar vazio!!').bail(), 
-    check('email').notEmpty().withMessage('Deve conter um Email').bail(),
-    check('password').isLength({min: 5, max: 10}).withMessage('A senha deve conter no mínimo 5 e no maximo 10 caracteres').bail(),
-    body('password').isLength({ min: 5 }),
+    body('name').notEmpty().withMessage('O nome não pode estar vazio!!').bail(), 
+    body('email').notEmpty().withMessage('Deve conter um Email').custom((value)=>{
+        const user = userModel.findByField('email', value);
+        if(user){
+            throw new Error('Esse Email já existe, tente outro!');
+        }
+        return true;
+    }).bail(),
+    body('password').isLength({min: 5, max: 10}).withMessage('A senha deve conter no mínimo 5 e no maximo 10 caracteres').bail(),
     body('passwordConfirm').custom((value, { req }) => {
         if (value !== req.body.password) {
             throw new Error('As senhas não conferem');

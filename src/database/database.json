@@ -28,24 +28,14 @@
     "pets": [],
     "users": [
         {
-            "id": "59305bdf-e69b-472b-834b-5796117550f9",
+            "id": "783b7cbb-d06d-461a-9be3-6b11edf89079",
             "name": "Vagner",
-            "lastName": "Junior",
-            "img": "1654198214930imag.png",
+            "lastName": "Siqueira jr",
+            "img": "1654725185852imag.png",
             "tel": "(11)956542085",
-            "date": "1997-10-29",
-            "email": "teste@teste",
-            "password": "12345688"
-        },
-        {
-            "id": "87d292ac-4485-498c-a4b3-bf718a8c4d07",
-            "name": "Vagner",
-            "lastName": "Terriaga",
-            "img": "1654278388712imag.png",
-            "tel": "(11)956542085",
-            "date": "2021-11-11",
-            "email": "teste@teste",
-            "password": "123456"
+            "date": "1500-10-29",
+            "email": "junior@gmail.com",
+            "password": "$2b$10$YLgIH1Yv.Qcjy5thr2tI9..bwOIi4Dh3qZwaTdl2qLJnbTPZV35Qi"
         }
     ]
 }

@@ -1,42 +1,33 @@
-const petsDatabase = require('../database/petsDatabase.json')
 const { v4: geratorId } = require('uuid');
+const petModel = require('../model/petModel');
+
 
 const petsController = {
     show: (req, res) => {
-        let list = []
-        petsDatabase.forEach(element => {
-            list.push(`Id: ${element.id} - Name: ${element.name} - Pet type: ${element.petType}`)
-        //  list.push('Id: ' + element.id + ', ' + 'name: ' + element.name + ', ' + 'pet Type: ' + element.petType)    
-        })
-        return res.send(list)
+        const pets = petModel.findAll();
+        return res.send(pets);
     },
     index: (req, res) => {
-        const {id} = req.params;
-        const petIndex = petsDatabase.find(element => element.id == id)
-        if(petIndex == null) {
-            return res.send('user not found');
-        }else {
-            return res.send(petIndex)
-        }
+        const pet = petModel.findById(req.params.id);
+        return res.send(pet); 
     },
     create: (req, res) => {
         const {name, petType, age, size} = req.body;
-        const newPet = {id: geratorId(), name, petType, age, size}
-        petsDatabase.push(newPet)
+        const newPet = {id: geratorId(), name, petType, age, size};
+        petModel.save(newPet);
         return res.send(newPet);
     },
     update: (req, res) => {
         const {id} = req.params;
-        let index = petsDatabase.find(element => element.id == id)
-        const {name, petType, age, size} = req.body;
-        petsDatabase[index] = {name, petType, age, size}
-        return res.send(petsDatabase[index])
+        const {name, age} = req.body;
+        const pet = {id, name, age};
+        petModel.update(id, pet);
+        return res.send(pet);
     },
     destroy: (req, res) => {
-        const {id} = req.body;
-        const index = petsDatabase.find(element => element.id == id)
-        petsDatabase.splice(index, 1)
-        return res.send(petsDatabase)
+        const {id} = req.params;
+        const petDestroy = petModel.destroy(id);
+        return res.send(petDestroy);
     },
 };
 

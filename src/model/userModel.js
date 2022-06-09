@@ -14,7 +14,7 @@ const store = (db) => {
   fs.writeFileSync(database, content, 'utf8');
 }
 
-const userModel = {
+const User = {
     login: (email, password) => {
         const db = open();
         const user = db.users.find(user => user.email == email)
@@ -64,4 +64,4 @@ const userModel = {
     }
 }
 
-module.exports = userModel;
+module.exports = User;

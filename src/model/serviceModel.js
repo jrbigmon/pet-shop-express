@@ -19,7 +19,7 @@ const write = (db) => {
     return db;
 }
 
-const serviceModel = {
+const Service = {
     findAll: () => {
         const db = open();
         return db.services;
@@ -48,4 +48,4 @@ const serviceModel = {
     }
 }
 
-module.exports = serviceModel;
+module.exports = Service;

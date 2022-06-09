@@ -25,7 +25,23 @@
             "describ": "Limpeza profunda das cáries e tartaros, melhorando o hálito de seu pet."
         }
     ],
-    "pets": [],
+    "pets": [
+        {
+            "id": "0ab5def8-0709-4b3b-8e88-47a8fbc0e87e",
+            "name": "Jerry",
+            "age": "23 years"
+        },
+        {
+            "id": "9c0ec050-3342-41b1-b246-c39bad5f481e",
+            "name": "Binho",
+            "age": "10 years"
+        },
+        {
+            "id": "2ed97159-d5e2-41a0-ae7c-e16561a323fa",
+            "name": "Marrye",
+            "age": "5 years"
+        }
+    ],
     "users": [
         {
             "id": "783b7cbb-d06d-461a-9be3-6b11edf89079",

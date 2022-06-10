@@ -46,12 +46,8 @@ const Pet = {
     destroy: (id) => {
         const db = open();
         const index = db.pets.findIndex(pet => pet.id == id);
-        if(index) {
-            return null
-        }else{
-            db.pets.splice(index, 1);
-            store(db);
-        }
+        db.pets.splice(index, 1);
+        store(db);
     }
 }
 

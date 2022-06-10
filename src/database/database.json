@@ -27,19 +27,34 @@
     ],
     "pets": [
         {
-            "id": "0ab5def8-0709-4b3b-8e88-47a8fbc0e87e",
-            "name": "Jerry",
-            "age": "23 years"
-        },
-        {
             "id": "9c0ec050-3342-41b1-b246-c39bad5f481e",
             "name": "Binho",
-            "age": "10 years"
+            "img": "1654895280273Binho.jpeg",
+            "age": "10"
         },
         {
             "id": "2ed97159-d5e2-41a0-ae7c-e16561a323fa",
             "name": "Marrye",
-            "age": "5 years"
+            "img": "1654895152954Marrye.jpeg",
+            "age": "5"
+        },
+        {
+            "id": "513078f4-fff2-46cc-8e4c-42aa3b07ba70",
+            "name": "Lucas a Aranha",
+            "img": "1654886047958lucas-a-aranha.jpg",
+            "age": "1"
+        },
+        {
+            "id": "59b799e6-f9b2-4f5b-864e-8817bd939bee",
+            "name": "Paca, à Bela",
+            "img": "1654895083104pacaABela.jpeg",
+            "age": "2"
+        },
+        {
+            "id": "025cbf55-25e8-4679-bb63-bf79d37738fa",
+            "name": "Jerry",
+            "img": "1654900524015ratinho-de-estimacao-2.jpg",
+            "age": "25"
         }
     ],
     "users": [

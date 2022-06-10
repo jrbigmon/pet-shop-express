@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/css/service.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<%- include('../../partials/head') %>
+
+<body>
+
+  <%- include('../../partials/adm/header') %>
+
+    <main>
+      <h1 id="service-title"> ATUALIZAR SERVIÇOS </h1>
+        <table class="table border-danger">
+          
+            <thead>
+              <tr>
+                <th scope="col">Id:</th>
+                <th scope="col">Imagem:</th>
+                <th scope="col">Nome:</th>
+                <th scope="col">Idade:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"> <%= pet.id %></th>
+                <td> <img src="/images/imgPet/<%= pet.img %>" alt="" style="width: 100px; height: 100px" >  </td>
+                <td> <%= pet.name %> </td>
+                <td> <%= pet.age %> </td>
+              </tr>
+             <form  method="POST" action="/adm/pets/update/<%= pet.id %>?_method=PUT" enctype="multipart/form-data">
+              <tr>
+                
+                <th scope="row"> <%= pet.id %> </th>
+
+                <td> <input type="file" name="img"> </td>
+                
+                <td> <input type="text" name="name" placeholder="name" value="<%= pet.name %>"> </td>
+                
+                <td> <input type="number" name="age" placeholder="idade" value="<%= pet.age %>"> </td>
+    
+              </tr>
+              <tr>
+               <td> <button type="submit" class="btn btn-success"> Update </button> </td>
+               <td> <a href="/adm/pets" class="btn btn-primary"> Visualizar Todos </a> </td>
+              </tr>
+             </form>
+            </tbody>
+          </table>
+    </main>
+    <%- include('../../partials/footer')  %>
+</body>
+
+</html>

@@ -1382,3 +1382,709 @@ Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::ffff:127.0.0.1, Status Servidor
 
 Rota: /adm/pets/, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 09 06 2022 13:22:02 
 
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:00:52 
+
+Rota: /favicon.ico, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:00:55 
+
+Rota: /adm, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:00:59 
+
+Rota: /css/style.css, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:00:59 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:01:02 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:01:29 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:01:42 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:02:56 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:03:37 
+
+Rota: /services/adm/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:03:39 
+
+Rota: /services/adm/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:04:04 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:04:07 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:04:36 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:04:45 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:06:11 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:06:38 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:06:59 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:08:11 
+
+Rota: /services/adm/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:08:45 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:09:18 
+
+Rota: /adm/pets, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:10:06 
+
+Rota: /adm/pets/update/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:22:45 
+
+Rota: /adm/pets/update/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:23:11 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:23:23 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:23:27 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:23:56 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:25:38 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:25:52 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:26:40 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:28:00 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:28:30 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:29:55 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:30:15 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:30:20 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:30:21 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:30:52 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:31:10 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:31:31 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:32:00 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:32:06 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:32:34 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:32:52 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:34:07 
+
+Rota: /adm/pet, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:34:07 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:34:11 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:35:04 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:53:57 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:54:25 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:54:25 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:56:39 
+
+Rota: /adm/pets/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:56:40 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:57:03 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:57:04 
+
+Rota: /adm/pets/update/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:57:10 
+
+Rota: /adm/pets/update/513078f4-fff2-46cc-8e4c-42aa3b07ba70, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 15:57:13 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:03:56 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:05:08 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:05:11 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:14:27 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:14:28 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:16:34 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:17:10 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:17:13 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:17:53 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:26:18 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:26:33 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:27:01 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:30:01 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:30:07 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:30:21 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:31:01 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:31:01 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:32:52 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:33:00 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:33:00 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:33:07 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:34:35 
+
+Rota: /adm/pets/update/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:34:35 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:01 
+
+Rota: /adm/pets/update/images/petImage/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:01 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:07 
+
+Rota: /images/petImage/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:07 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:20 
+
+Rota: /adm/pets/update/images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:20 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:21 
+
+Rota: /adm/pets/update/images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:21 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:25 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:37 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:49 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:54 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:35:57 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:36:04 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:36:48 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:36:48 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:36:48 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:37:14 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:37:14 
+
+Rota: /adm/pets, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:46:54 
+
+Rota: /pets/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:50:42 
+
+Rota: /pets/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:50:45 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:54:25 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:54:25 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:54:25 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:54:29 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:54:52 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:54:52 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:54:55 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:04 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:04 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:07 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:20 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:20 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:20 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:22 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:26 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:26 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:27 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:54 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:54 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:56 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:56 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:56 
+
+Rota: /images/imgPet/1654887265946lucas-a-aranha.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 17:55:56 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:00:22 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:00:22 
+
+Rota: /images/imgPet/1654887265946lucas-a-aranha.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:00:22 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:00:22 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:00:24 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:01:23 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:01:23 
+
+Rota: /images/imgPet/1654887265946lucas-a-aranha.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:01:23 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:01:23 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:01:24 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:22 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:22 
+
+Rota: /images/imgPet/1654887265946lucas-a-aranha.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:22 
+
+Rota: /adm/pets/delete/53c6360c-612a-4e30-a084-4fb54446b411?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:23 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:23 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:23 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:24 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 10 06 2022 18:02:33 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:33 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:57 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:57 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:02:58 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:04:43 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:04:43 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:04:43 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 10 06 2022 18:04:43 
+
+Rota: /adm/pets/update/59b799e6-f9b2-4f5b-864e-8817bd939bee, Metodo HTTP: GET, IP: ::ffff:127.0.0.1, Status Servidor: 200, Data: 10 06 2022 18:04:46 
+
+Rota: /adm/pets/update/2ed97159-d5e2-41a0-ae7c-e16561a323fa, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:04:52 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:04:52 
+
+Rota: /adm/pets/update/2ed97159-d5e2-41a0-ae7c-e16561a323fa?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:05:52 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:05:52 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:05:53 
+
+Rota: /adm/pets/update/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:05:57 
+
+Rota: /images/imgPet/teste, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:05:57 
+
+Rota: /adm/pets/update/9c0ec050-3342-41b1-b246-c39bad5f481e?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:00 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:00 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:05 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:07 
+
+Rota: /adm/pets/update/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:09 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:12 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:22 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:24 
+
+Rota: /pets/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:08:28 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:21 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:22 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:23 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:24 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:28 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:30 
+
+Rota: /services/adm/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:30 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:34 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:36 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:38 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:40 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:42 
+
+Rota: /, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:45 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:48 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:51 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:53 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:09:59 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:10:10 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:10:12 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:10:15 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:10:15 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:10:21 
+
+Rota: /services/adm/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:10:22 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:10:28 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:37:30 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:37:33 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:43:37 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:43:39 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:44:39 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:44:40 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:46:53 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:47:21 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:47:23 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:47:24 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:47:49 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:47:50 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:47:52 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:48:04 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:48:05 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:48:06 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:48:44 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:48:45 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:49:05 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:50:11 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:50:12 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:51:24 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:51:26 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:51:49 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:51:50 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:09 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:17 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:19 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:20 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:22 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:23 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:24 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:28 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:55 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:52:58 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:53:00 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:53:03 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:53:18 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:54:19 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:54:32 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:54:32 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:54:32 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:07 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:07 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:07 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:19 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:19 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:21 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:21 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:21 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:22 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:22 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:22 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:23 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:23 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:23 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:55:46 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:57:28 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:57:29 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:57:30 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:57:30 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:57:30 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:58:31 
+
+Rota: /images/imgPet/1654893180606ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:58:31 
+
+Rota: /adm/pets/delete/0ab5def8-0709-4b3b-8e88-47a8fbc0e87e?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:58:32 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:58:32 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:58:50 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:59:03 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:59:03 
+
+Rota: /adm/pets/delete/2ad0adf3-e7af-4f99-96c0-ea315a792faa?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:59:12 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:59:12 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:59:19 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:59:28 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 18:59:28 
+
+Rota: /adm/pets/update/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:01:39 
+
+Rota: /adm/pets/update/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:04:56 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:04:58 
+
+Rota: /adm/pets/update/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:04:59 
+
+Rota: /adm/pets/update/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:06:04 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:11:41 
+
+Rota: /adm/pets/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:11:45 
+
+Rota: /adm/pets/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:12:17 
+
+Rota: /adm/pets/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:12:35 
+
+Rota: /adm/pets/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:13:41 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:13:43 
+
+Rota: /adm/pets/2ed97159-d5e2-41a0-ae7c-e16561a323fa, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:13:46 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:13:49 
+
+Rota: /adm/pets/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:13:53 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:14:02 
+
+Rota: /adm/pets/513078f4-fff2-46cc-8e4c-42aa3b07ba70, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:14:04 
+
+Rota: /adm/pets/513078f4-fff2-46cc-8e4c-42aa3b07ba70, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:16:01 
+
+Rota: /adm/pets/513078f4-fff2-46cc-8e4c-42aa3b07ba70, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:16:05 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:16:06 
+
+Rota: /adm/pets/513078f4-fff2-46cc-8e4c-42aa3b07ba70, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:16:09 
+
+Rota: /adm/pets/513078f4-fff2-46cc-8e4c-42aa3b07ba70, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:16:55 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:16:57 
+
+Rota: /adm/pets/513078f4-fff2-46cc-8e4c-42aa3b07ba70, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:17:00 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:17:02 
+
+Rota: /adm/pets/2ed97159-d5e2-41a0-ae7c-e16561a323fa, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:17:03 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:17:06 
+
+Rota: /adm/pets/9c0ec050-3342-41b1-b246-c39bad5f481e, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:17:07 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:17:08 
+
+Rota: /adm/pets/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:17:10 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:18:18 
+
+Rota: /adm/pets/2ed97159-d5e2-41a0-ae7c-e16561a323fa, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:18:28 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:18:30 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:18:40 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:21:07 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:22:04 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:22:09 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:23:04 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:23:07 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:23:10 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:23:11 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:23:12 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:26:09 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:26:14 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:26:14 
+
+Rota: /images/imgPet/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:26:14 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:27:08 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:27:16 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:27:45 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:27:47 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:27:47 
+
+Rota: /images/imgPet/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:27:47 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:28:40 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:28:43 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:28:44 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:28:46 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:28:46 
+
+Rota: /images/imgPet/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:28:46 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:16 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:18 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:19 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:21 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:21 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:43 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:46 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:48 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:48 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:30:50 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:08 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:08 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:11 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:15 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:16 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:18 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:26 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:31:26 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:33:08 
+
+Rota: /images/imgPet/1654900286095ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:33:08 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:33:09 
+
+Rota: /images/imgPet/1654900286095ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:33:09 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:33:21 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:34:04 
+
+Rota: /images/imgPet/1654900286095ratinho-de-estimacao-2.jpg, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:34:04 
+
+Rota: /adm/pets/update/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=PUT, Metodo HTTP: PUT, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:34:07 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:34:07 
+
+Rota: /adm/pets/delete/8c470986-8f81-4a91-ac0f-2c617569d5bd?_method=DELETE, Metodo HTTP: DELETE, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:35:11 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:35:11 
+
+Rota: /adm/pets/create, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:35:14 
+
+Rota: /adm/pets/create, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:35:24 
+
+Rota: /adm/pets, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 10 06 2022 19:35:24 
+

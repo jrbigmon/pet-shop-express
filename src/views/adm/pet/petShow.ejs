@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/css/service.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<%- include('../../partials/head') %>
+
+<body>
+
+  <%- include('../../partials/adm/header') %>
+
+  <main>
+    <a href="/adm/pets/create" class="btn btn-primary mb-5 mt-5"> Cadastrar </a>
+    <table class="table border-danger">
+
+      <thead>
+        <tr>
+          <th scope="col">Id:</th>
+          <th scope="col">Imagem:</th>
+          <th scope="col">Nome:</th>
+          <th scope="col">Idade:</th>
+          <th scope="col">Ação:</th>
+          <!-- <th scope="col">Descrição:</th>
+          <th scope="col">Ação:</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <% pets.forEach(pet => { %>
+        <tr>
+          <th scope="row"> <%= pet.id %></th>
+          <td> <img src="/images/imgPet/<%= pet.img %>" alt="" style="width: 100px; height:100px">  </td>
+          <td> <%= pet.name %> </td>
+          <td> <%= pet.age %> </td>
+          <td>
+            <form action="/adm/pets/delete/<%= pet.id %>?_method=DELETE" method="POST">
+              <a href="/adm/pets/update/<%= pet.id %>" class="btn btn-primary"> Editar </a>
+              <a href="/adm/pets/<%= pet.id %>" class="btn btn-success"> Visualizar </a>
+              <button type="submit" class="btn btn-danger">Deletar</button>
+            </form>
+          </td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </main>
+  <%- include('../../partials/footer')  %>
+</body>
+
+</html>

@@ -1,8 +1,8 @@
-const serviceModel = require('../model/serviceModel')
-const fs = require('fs-extra')
-const path = require('path')
+const serviceModel = require('../model/serviceModel');
+const fs = require('fs-extra');
+const path = require('path');
 const { v4: geratorId } = require('uuid');
-const {validationResult} = require('express-validator')
+const {validationResult} = require('express-validator');
 
 const serviceController = {
     index: (req, res) => {

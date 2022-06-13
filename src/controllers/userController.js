@@ -18,7 +18,9 @@ const userController = {
         const {email, password} = req.body;
         let user = userModel.login(email, password);
         if (user) {
-           return res.render('./adm/user/index', {user, title: 'users'});
+            delete user.password;
+            req.session.userLoggedIn = user;
+            return res.render('./adm/user/index', {user, title: 'users'});
         } else {
            return res.render('./home/login', {
                 title: 'login', 
@@ -30,6 +32,10 @@ const userController = {
                 old : req.body
             })
         }
+    },
+    logOut: (req, res) => {
+        req.session.destroy(); 
+        res.redirect('/login')
     },
     createShow: (req, res) => {
         const errors = undefined;

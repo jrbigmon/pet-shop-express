@@ -9,7 +9,7 @@ let userRouter = require('./src/routes/userRouter');
 let petRouter = require('./src/routes/petRouter');
 let homeRouter = require('./src/routes/homeRouter');
 let serviceRouter = require('./src/routes/serviceRouter');
-let admRouter = require('./src/routes/admRouter');
+
 
 app.use(session({
     secret: 'msg secret',
@@ -27,7 +27,6 @@ app.set('views', './src/views');
 
 app.use(requestLogs); // middlewares of request logs access
 
-app.use(admRouter); // search adm page in homeRouter
 app.use(homeRouter); // search home page in homeRouter
 app.use(userRouter); // search routes of user
 app.use(petRouter); // search routes of pets

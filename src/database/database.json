@@ -67,6 +67,14 @@
             "date": "1500-10-29",
             "email": "junior@gmail.com",
             "password": "$2b$10$YLgIH1Yv.Qcjy5thr2tI9..bwOIi4Dh3qZwaTdl2qLJnbTPZV35Qi"
+        },
+        {
+            "id": "0df2b576-693a-4d62-9f6e-f2914d1a2f3b",
+            "name": "teste",
+            "lastName": "",
+            "img": "https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?b=1&k=20&m=476085198&s=170667a&w=0&h=Ct4e1kIOdCOrEgvsQg4A1qeuQv944pPFORUQcaGw4oI=",
+            "email": "teste@teste",
+            "password": "$2b$10$RXIGNOSuHKKkGN/FXWhnaeKLNZ7sSFSeXpiLdTZTMDm/fnO8bJ8/W"
         }
     ]
 }

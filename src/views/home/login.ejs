@@ -3,13 +3,17 @@
 <%- include('../partials/head')  %> 
 <link rel="stylesheet" href="/css/login.css">
 <body>
+
     <%- include('../partials/header')  %>
+    
     <main class="main-login">
+
         <section class="img-cat">
             <img src="/images/imgHome/manAndCat.png" alt="Homem e Gato em um sofá">
         </section>
 
         <section class="table-login">
+
             <h1> LOGIN </h1>
             <% if (errors !== undefined) { %> 
                 <ul>
@@ -20,6 +24,7 @@
                      <% } %> 
                 </ul>
              <% } %>
+
             <form action="/login" method="POST">
                 <input type="email" name="email" id="" placeholder="email" value="<%= locals.old && old.email %>">
                 <br>
@@ -28,7 +33,9 @@
                 <button type="submit" class="btn"> Entrar </button>
             </form>
             <a href="/users/create"> Cadastrar-me </a>
+            
         </section>
+
     </main>
     
 </body>

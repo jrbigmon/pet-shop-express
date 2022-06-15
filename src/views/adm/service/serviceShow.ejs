@@ -11,7 +11,7 @@
   <%- include('../../partials/adm/header') %>
 
   <main>
-    <a href="/services/adm/create" class="btn btn-primary mb-5 mt-5"> Cadastrar </a>
+    <a href="/adm/services/create" class="btn btn-primary mb-5 mt-5"> Cadastrar </a>
     <table class="table border-danger">
 
       <thead>
@@ -39,8 +39,8 @@
             <% } %> </td>
           <td> <%= element.describ %> </td>
           <td>
-            <form action="/services/adm/delete/<%= element.id %>?_method=DELETE" method="POST">
-              <a href="/services/adm/update/<%= element.id %>" class="btn btn-primary"> Editar </a>
+            <form action="/adm/services/delete/<%= element.id %>?_method=DELETE" method="POST">
+              <a href="/adm/services/update/<%= element.id %>" class="btn btn-primary"> Editar </a>
               <button type="submit" class="btn btn-danger">Deletar</button>
             </form>
           </td>

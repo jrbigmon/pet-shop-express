@@ -37,7 +37,7 @@
              <% } %> </td>
                 <td> <%= service.describ %> </td>
               </tr>
-             <form  method="POST" action="/services/adm/update/<%= service.id %>?_method=PUT" enctype="multipart/form-data">
+             <form  method="POST" action="/adm/services/update/<%= service.id %>?_method=PUT" enctype="multipart/form-data">
               <tr>
                 <th scope="row"></th>
                 <td> <input type="text" name="name" placeholder="name" value="<%= service.name %>"> </td>
@@ -58,7 +58,7 @@
               </tr>
               <tr>
                <td> <button type="submit" class="btn btn-success"> Update </button> </td>
-               <td> <a href="/services/adm/show" class="btn btn-primary"> Visualizar Todos </a> </td>
+               <td> <a href="/adm/services/show" class="btn btn-primary"> Visualizar Todos </a> </td>
               </tr>
              </form>
             </tbody>

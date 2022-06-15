@@ -25,7 +25,7 @@ const serviceController = {
         }
         console.log(img)
         serviceModel.save(service)
-        return res.redirect('/services/adm/show')
+        return res.redirect('/adm/services/show')
     },
     showCreate: (req, res) => {
         const errors = 'undefined'
@@ -53,7 +53,7 @@ const serviceController = {
             var serviceUpdate = {id, name, value, active, img, describ};
         }
         serviceModel.update(id, serviceUpdate);
-        return res.redirect('/services/adm/show');
+        return res.redirect('/adm/services/show');
     },
     showAdm: (req, res) => {
         const services = serviceModel.findAll()
@@ -68,7 +68,7 @@ const serviceController = {
             console.log('success!')
           })
         serviceModel.delete(id)
-        return res.redirect('/services/adm/show');
+        return res.redirect('/adm/services/show');
     }
 }
 

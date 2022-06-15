@@ -13,12 +13,6 @@ const store = (db) => {
   fs.writeFileSync(database, content, 'utf8');
 }
 
-const write = (db) => {
-    const content = JSON.stringify(db);
-    fs.appendFileSync(database, content, 'utf8');
-    return db;
-}
-
 const Service = {
     findAll: () => {
         const db = open();

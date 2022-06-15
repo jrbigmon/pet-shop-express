@@ -1,10 +1,9 @@
 const userLoggedIn = (req, res, next) => {
-    const userAproved = req.session.userLoggedIn ? req.session.userLoggedIn: false
-    if(userAproved.email === 'junior@gmail.com') {
+    if(req.session.userLoggedIn) {
         res.locals.user = req.session.userLoggedIn;
         return next();
     }else {
-        res.redirect('/login');
+        return res.redirect('/login');
     }
 }
 

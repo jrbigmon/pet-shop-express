@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const petsController = require('../controllers/petController')
+const petsController = require('../controllers/petController');
 const storage = require('../../config/storage');
-const validatorPet = require('../../config/validatorPet')
-const sessionLoggedIn = require('../../config/sessionLoggedIn')
+const validatorPet = require('../../config/validatorPet');
+const adminVerify = require('../../config/adminVerify');
 
-router.use(sessionLoggedIn);
+router.use(adminVerify);
 
 router.get('/adm/pets', petsController.show);
 

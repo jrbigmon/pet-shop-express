@@ -3,9 +3,9 @@ const express = require('express');
 const router = express.Router();
 const storageDisk = require('../../config/storage');
 const validatorService = require('../../config/validatorService');
-const sessionLoggedIn = require('../../config/sessionLoggedIn');
+const adminVerify = require('../../config/adminVerify');
 
-router.use(sessionLoggedIn);
+router.use(adminVerify);
 
 router.get('/services/:id', serviceController.index);
 

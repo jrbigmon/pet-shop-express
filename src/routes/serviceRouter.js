@@ -7,8 +7,6 @@ const adminVerify = require('../../config/adminVerify');
 
 router.use(adminVerify);
 
-router.get('/services/:id', serviceController.index);
-
 router.get('/adm/services/create', serviceController.showCreate);
 router.post('/adm/services/create', storageDisk('imgService').single('img'), validatorService, serviceController.create);
 

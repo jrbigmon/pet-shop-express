@@ -5,11 +5,6 @@ const { v4: geratorId } = require('uuid');
 const {validationResult} = require('express-validator');
 
 const serviceController = {
-    index: (req, res) => {
-        const {id} = req.params;
-        const index = serviceModel.findById(id);
-        return res.render('./adm/service/index', {index, title: 'Service'})
-    },
     create: (req, res) => {
         const errors = validationResult(req)
         if(!errors.isEmpty()){

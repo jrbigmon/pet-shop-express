@@ -12,5 +12,10 @@ const homeController = {
     contact: (req, res) => {
         return res.render('./home/contact', {title: 'contact'})
     },
+    serviceIndex: (req, res) => {
+        const {id} = req.params;
+        const index = serviceModel.findById(id);
+        return res.render('./adm/service/index', {index, title: 'Service'})
+    },
 }
 module.exports = homeController;

@@ -3776,3 +3776,239 @@ Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 
 
 Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:35:14 
 
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:38:41 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:38:45 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:39:54 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:39:58 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:05 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:05 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:06 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:15 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:16 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:16 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:17 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:17 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:17 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:18 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:18 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:18 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:19 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:19 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:19 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:19 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:29 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:40:34 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:01 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:04 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:06 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:09 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:10 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:14 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:16 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:16 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:19 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:19 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:30 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:33 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:39 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:41:52 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:42:55 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:01 
+
+Rota: /adm/pets/, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:03 
+
+Rota: /adm/services/show, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:05 
+
+Rota: /login/update/783b7cbb-d06d-461a-9be3-6b11edf89079, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:07 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:11 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:11 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:17 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:50 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:55 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:58 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:43:58 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:03 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:06 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:08 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:09 
+
+Rota: /login/update/0df2b576-693a-4d62-9f6e-f2914d1a2f3b, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:09 
+
+Rota: /contact, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:10 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:11 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:13 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:13 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:44:21 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:01 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:02 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:02 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:05 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:05 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:06 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:07 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:07 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:09 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:15 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:17 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:19 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:45:19 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:50:54 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:50:56 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:50:59 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:41 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:43 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:44 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:44 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:44 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:51 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:53 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:53 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:52:53 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:22 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:24 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:25 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:25 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:25 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:31 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:33 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:34 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:54:34 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:57:59 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:00 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:01 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:02 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:02 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:08 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:09 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:10 
+
+Rota: /logout, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:13 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:13 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:15 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:16 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 15:58:16 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:25 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:26 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:26 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:26 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:32 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:33 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:35 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:35 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:00:58 
+
+Rota: /login, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:01:00 
+
+Rota: /login, Metodo HTTP: POST, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:01:06 
+
+Rota: /services, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:01:08 
+
+Rota: /services/1, Metodo HTTP: GET, IP: ::1, Status Servidor: 200, Data: 17 06 2022 16:01:09 
+

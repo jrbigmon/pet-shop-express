@@ -4,6 +4,7 @@ const app = express(); // functions express
 const methodOverride = require('method-override');
 const requestLogs = require('./config/requestLogs');
 const session = require('express-session');
+const cookies = require('cookie-parser');
 
 let userRouter = require('./src/routes/userRouter');
 let petRouter = require('./src/routes/petRouter');
@@ -21,6 +22,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
 })); // middleware for session
+app.use(cookies());
 
 app.use(requestLogs); // middlewares of request logs access
 

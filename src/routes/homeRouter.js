@@ -13,6 +13,5 @@ router.use(userLoggedIn)
 router.get('/', homeController.index)
 router.get('/services', homeController.service)
 router.get('/contact', homeController.contact)
-router.get('/adm', homeController.showAdm);
 
 module.exports = router;

@@ -8,7 +8,7 @@ const sessionLoggedIn = require('../../config/sessionLoggedIn');
 router.get('/users/show', userController.show);
 
 router.get('/login', userController.loginShow);
-router.post('/login', userController.index);
+router.post('/login',userController.index);
 router.get('/logout', sessionLoggedIn, userController.logOut);
 // router.get('/login/:id', userController.index);
 

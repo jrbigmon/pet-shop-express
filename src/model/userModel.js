@@ -1,7 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
 const database = path.join('src', 'database', 'database.json');
-const bcrypt = require('bcrypt');
 
 const open = () => {
     let content = fs.readFileSync(database, 'utf8');
@@ -14,18 +13,7 @@ const store = (db) => {
   fs.writeFileSync(database, content, 'utf8');
 }
 
-const User = {
-    login: (email, password) => {
-        const db = open();
-        const user = db.users.find(user => user.email == email)
-        if(user){
-         const validation = bcrypt.compare(password, user.password);
-         if(validation){
-             return user;
-         }
-        }
-    },
-    
+const User = { 
     findByField: (input, value) => {
         const db = open();
         const user = db.users.find(user => user[input] == value)

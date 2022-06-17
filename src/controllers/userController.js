@@ -16,8 +16,11 @@ const userController = {
     },
     index: (req, res) => {
         const {email, password} = req.body;
-        let user = userModel.login(email, password);
-        if (user) {
+        const user = userModel.findByField('email', email);
+        if(user != undefined){
+            var passawordValid = bcrypt.compare(password, user.password)
+        }
+        if (passawordValid && user != undefined) {
             delete user.password;
             req.session.userLoggedIn = user;
             return res.render('./adm/user/index', {user, title: 'users'});

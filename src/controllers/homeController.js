@@ -12,8 +12,5 @@ const homeController = {
     contact: (req, res) => {
         return res.render('./home/contact', {title: 'contact'})
     },
-    showAdm: (req, res) => {
-        res.render('./adm/index');
-    }
 }
 module.exports = homeController;

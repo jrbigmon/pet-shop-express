@@ -18,7 +18,6 @@ const serviceController = {
             var {name, value, img, active, describ} = req.body;
             var service = {id:geratorId(), name, value, active, img, describ};
         }
-        console.log(img)
         serviceModel.save(service)
         return res.redirect('/adm/services/show')
     },

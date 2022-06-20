@@ -26,7 +26,6 @@ const petsController = {
             petModel.save({id: geratorId(), name, img, age});
             return res.redirect('/adm/pets');
         }else{
-            console.log(errors.mapped())
             res.render('./adm/pet/petCreate', {title:'pets create',  errors: errors.mapped(), old: req.body});
         }
     },

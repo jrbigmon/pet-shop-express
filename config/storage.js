@@ -16,6 +16,4 @@ const storageDisk = (routeFile)=> {
     return fileUpload;
 }
 
-
-
 module.exports = storageDisk;

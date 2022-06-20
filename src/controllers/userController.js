@@ -23,6 +23,9 @@ const userController = {
         if (passawordValid) {
             delete user.password;
             req.session.userLoggedIn = user;
+            if(req.body.remember){
+                res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 30})
+            }
             return res.render('./adm/user/index', {user, title: 'users'});
         } else {
            return res.render('./home/login', {
@@ -37,8 +40,9 @@ const userController = {
         }
     },
     logOut: (req, res) => {
-        req.session.destroy(); 
-        res.redirect('/login')
+        res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 0})
+        req.session.destroy();
+        res.redirect('/login');
     },
     createShow: (req, res) => {
         const errors = undefined;
